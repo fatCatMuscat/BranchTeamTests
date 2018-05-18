@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" total="4" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[DEBUG: number of employees don't match between all tab and other tabs]]>
+    </line>
+    <line>
+      <![CDATA[DEBUG: names of employees who's department value don't match between 'All' and other tabs: [YEN HOANG, VATSAL BAJPAI, AMANDA GRADY, AMANDA VANDIVER]]]>
+    </line>
+    <line>
+      <![CDATA[DEBUG: Names of employees with non matching images or inconsistently named imageFiles: [DMITRI GASKIN, EVGENIY (GENE) HAYDAMAKHA, VIVIANA DE LA TORRE]]]>
+    </line>
+    <line>
+      <![CDATA[DEBUG: names found only in All tab: [AMANDA GRADY, AMANDA VANDIVER, VATSAL BAJPAI, YEN HOANG]]]>
+    </line>
+    <line>
+      <![CDATA[DEBUG: names found only in Other tabs: []]]>
+    </line>
+    <line>
+      <![CDATA[DEBUG: 129 employee cards are found on 'All' departments tab]]>
+    </line>
+    <line>
+      <![CDATA[DEBUG: 125 total employee cards are found on 'other' department tabs]]>
+    </line>
+  </reporter-output>
+  <suite name="Acceptance Suite" duration-ms="70106" started-at="2018-05-18T23:25:10Z" finished-at="2018-05-18T23:26:20Z">
+    <groups>
+      <group name="team">
+        <method signature="TeamModuleTests.VerifyEmployeeDepartmentsListedCorrectlyBetweenAllAndOtherTabs()[pri:0, instance:Tests.TeamModuleTests@21bcffb5]" name="VerifyEmployeeDepartmentsListedCorrectlyBetweenAllAndOtherTabs" class="Tests.TeamModuleTests"/>
+        <method signature="TeamModuleTests.VerifyEmployeeNamesMatchEmployeePortraitsFileNames()[pri:0, instance:Tests.TeamModuleTests@21bcffb5]" name="VerifyEmployeeNamesMatchEmployeePortraitsFileNames" class="Tests.TeamModuleTests"/>
+        <method signature="TeamModuleTests.verifyEmployeeNamesMatchBetweenAllAndOtherTabs()[pri:0, instance:Tests.TeamModuleTests@21bcffb5]" name="verifyEmployeeNamesMatchBetweenAllAndOtherTabs" class="Tests.TeamModuleTests"/>
+        <method signature="TeamModuleTests.verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs()[pri:0, instance:Tests.TeamModuleTests@21bcffb5]" name="verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs" class="Tests.TeamModuleTests"/>
+      </group> <!-- team -->
+    </groups>
+    <test name="TeamModuleSuite" duration-ms="70106" started-at="2018-05-18T23:25:10Z" finished-at="2018-05-18T23:26:20Z">
+      <class name="Tests.TeamModuleTests">
+        <test-method status="PASS" signature="navigateToBranchViaGoogleSearchAndOpenTeamPage()[pri:0, instance:Tests.TeamModuleTests@21bcffb5]" name="navigateToBranchViaGoogleSearchAndOpenTeamPage" is-config="true" duration-ms="13484" started-at="2018-05-18T16:25:10Z" finished-at="2018-05-18T16:25:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToBranchViaGoogleSearchAndOpenTeamPage -->
+        <test-method status="FAIL" signature="VerifyEmployeeDepartmentsListedCorrectlyBetweenAllAndOtherTabs()[pri:0, instance:Tests.TeamModuleTests@21bcffb5]" name="VerifyEmployeeDepartmentsListedCorrectlyBetweenAllAndOtherTabs" duration-ms="15586" started-at="2018-05-18T16:25:23Z" finished-at="2018-05-18T16:25:39Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at Tests.TeamModuleTests.VerifyEmployeeDepartmentsListedCorrectlyBetweenAllAndOtherTabs(TeamModuleTests.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[DEBUG: number of employees don't match between all tab and other tabs]]>
+            </line>
+            <line>
+              <![CDATA[DEBUG: names of employees who's department value don't match between 'All' and other tabs: [YEN HOANG, VATSAL BAJPAI, AMANDA GRADY, AMANDA VANDIVER]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyEmployeeDepartmentsListedCorrectlyBetweenAllAndOtherTabs -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Tests.TeamModuleTests@21bcffb5]" name="closeBrowser" is-config="true" duration-ms="286" started-at="2018-05-18T16:25:39Z" finished-at="2018-05-18T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="navigateToBranchViaGoogleSearchAndOpenTeamPage()[pri:0, instance:Tests.TeamModuleTests@21bcffb5]" name="navigateToBranchViaGoogleSearchAndOpenTeamPage" is-config="true" duration-ms="9929" started-at="2018-05-18T16:25:39Z" finished-at="2018-05-18T16:25:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToBranchViaGoogleSearchAndOpenTeamPage -->
+        <test-method status="FAIL" signature="VerifyEmployeeNamesMatchEmployeePortraitsFileNames()[pri:0, instance:Tests.TeamModuleTests@21bcffb5]" name="VerifyEmployeeNamesMatchEmployeePortraitsFileNames" duration-ms="3909" started-at="2018-05-18T16:25:49Z" finished-at="2018-05-18T16:25:53Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at Tests.TeamModuleTests.VerifyEmployeeNamesMatchEmployeePortraitsFileNames(TeamModuleTests.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[DEBUG: Names of employees with non matching images or inconsistently named imageFiles: [DMITRI GASKIN, EVGENIY (GENE) HAYDAMAKHA, VIVIANA DE LA TORRE]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyEmployeeNamesMatchEmployeePortraitsFileNames -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Tests.TeamModuleTests@21bcffb5]" name="closeBrowser" is-config="true" duration-ms="277" started-at="2018-05-18T16:25:53Z" finished-at="2018-05-18T16:25:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="navigateToBranchViaGoogleSearchAndOpenTeamPage()[pri:0, instance:Tests.TeamModuleTests@21bcffb5]" name="navigateToBranchViaGoogleSearchAndOpenTeamPage" is-config="true" duration-ms="9849" started-at="2018-05-18T16:25:53Z" finished-at="2018-05-18T16:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToBranchViaGoogleSearchAndOpenTeamPage -->
+        <test-method status="FAIL" signature="verifyEmployeeNamesMatchBetweenAllAndOtherTabs()[pri:0, instance:Tests.TeamModuleTests@21bcffb5]" name="verifyEmployeeNamesMatchBetweenAllAndOtherTabs" duration-ms="5385" started-at="2018-05-18T16:26:03Z" finished-at="2018-05-18T16:26:08Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at Tests.TeamModuleTests.verifyEmployeeNamesMatchBetweenAllAndOtherTabs(TeamModuleTests.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[DEBUG: names found only in All tab: [AMANDA GRADY, AMANDA VANDIVER, VATSAL BAJPAI, YEN HOANG]]]>
+            </line>
+            <line>
+              <![CDATA[DEBUG: names found only in Other tabs: []]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyEmployeeNamesMatchBetweenAllAndOtherTabs -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Tests.TeamModuleTests@21bcffb5]" name="closeBrowser" is-config="true" duration-ms="245" started-at="2018-05-18T16:26:08Z" finished-at="2018-05-18T16:26:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="navigateToBranchViaGoogleSearchAndOpenTeamPage()[pri:0, instance:Tests.TeamModuleTests@21bcffb5]" name="navigateToBranchViaGoogleSearchAndOpenTeamPage" is-config="true" duration-ms="9564" started-at="2018-05-18T16:26:09Z" finished-at="2018-05-18T16:26:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToBranchViaGoogleSearchAndOpenTeamPage -->
+        <test-method status="FAIL" signature="verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs()[pri:0, instance:Tests.TeamModuleTests@21bcffb5]" name="verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs" duration-ms="1263" started-at="2018-05-18T16:26:18Z" finished-at="2018-05-18T16:26:19Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [125] but found [129]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [125] but found [129]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:370)
+	at org.testng.Assert.assertEquals(Assert.java:380)
+	at Tests.TeamModuleTests.verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs(TeamModuleTests.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[DEBUG: 129 employee cards are found on 'All' departments tab]]>
+            </line>
+            <line>
+              <![CDATA[DEBUG: 125 total employee cards are found on 'other' department tabs]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Tests.TeamModuleTests@21bcffb5]" name="closeBrowser" is-config="true" duration-ms="291" started-at="2018-05-18T16:26:19Z" finished-at="2018-05-18T16:26:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Tests.TeamModuleTests -->
+    </test> <!-- TeamModuleSuite -->
+  </suite> <!-- Acceptance Suite -->
+</testng-results>

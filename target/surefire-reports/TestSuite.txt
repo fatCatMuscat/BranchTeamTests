@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 70.762 sec <<< FAILURE! - in TestSuite
+VerifyEmployeeDepartmentsListedCorrectlyBetweenAllAndOtherTabs(Tests.TeamModuleTests)  Time elapsed: 15.606 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at Tests.TeamModuleTests.VerifyEmployeeDepartmentsListedCorrectlyBetweenAllAndOtherTabs(TeamModuleTests.java:61)
+
+VerifyEmployeeNamesMatchEmployeePortraitsFileNames(Tests.TeamModuleTests)  Time elapsed: 3.914 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at Tests.TeamModuleTests.VerifyEmployeeNamesMatchEmployeePortraitsFileNames(TeamModuleTests.java:71)
+
+verifyEmployeeNamesMatchBetweenAllAndOtherTabs(Tests.TeamModuleTests)  Time elapsed: 5.385 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at Tests.TeamModuleTests.verifyEmployeeNamesMatchBetweenAllAndOtherTabs(TeamModuleTests.java:52)
+
+verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs(Tests.TeamModuleTests)  Time elapsed: 1.262 sec  <<< FAILURE!
+java.lang.AssertionError: expected [125] but found [129]
+	at Tests.TeamModuleTests.verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs(TeamModuleTests.java:46)
+

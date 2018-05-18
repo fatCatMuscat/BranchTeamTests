@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Acceptance Suite]">
+  <test name="TeamModuleSuite(failed)">
+    <groups>
+      <run>
+        <include name="team"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Tests.TeamModuleTests">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="verifyEmployeeNamesMatchBetweenAllAndOtherTabs"/>
+          <include name="verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs"/>
+          <include name="VerifyEmployeeDepartmentsListedCorrectlyBetweenAllAndOtherTabs"/>
+          <include name="VerifyEmployeeNamesMatchEmployeePortraitsFileNames"/>
+          <include name="navigateToBranchViaGoogleSearchAndOpenTeamPage"/>
+        </methods>
+      </class> <!-- Tests.TeamModuleTests -->
+    </classes>
+  </test> <!-- TeamModuleSuite(failed) -->
+</suite> <!-- Failed suite [Acceptance Suite] -->

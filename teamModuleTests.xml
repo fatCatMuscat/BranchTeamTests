@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Acceptance Suite" verbose ="1">
+
+    <test name = "TeamModuleSuite">
+        <groups>
+            <run>
+                <include name = "team"/>
+            </run>
+        </groups>
+
+        <packages>
+            <package name="Tests"/>
+        </packages>
+    </test>
+
+</suite>

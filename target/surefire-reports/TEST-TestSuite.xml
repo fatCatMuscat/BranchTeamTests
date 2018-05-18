@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="70.762" tests="4" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.112-b16"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/arsenal/my_repos/branchchallenge"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/arsenal/my_repos/branchchallenge"/>
+    <property name="java.runtime.version" value="1.8.0_112-b16"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/zm/rs7p6px975g6wjpnl3qws7b00000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.3.9/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/arsenal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.13.1"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.suiteXmlFiles" value="teamModuleTests.xml"/>
+    <property name="user.home" value="/Users/arsenal"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="arsenal"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.3.9/libexec/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dsurefire.suiteXmlFiles=teamModuleTests.xml"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_112"/>
+    <property name="java.ext.dirs" value="/Users/arsenal/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.3.9/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="VerifyEmployeeDepartmentsListedCorrectlyBetweenAllAndOtherTabs" classname="Tests.TeamModuleTests" time="15.606">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at Tests.TeamModuleTests.VerifyEmployeeDepartmentsListedCorrectlyBetweenAllAndOtherTabs(TeamModuleTests.java:61)
+</failure>
+    <system-out><![CDATA[DEBUG: number of employees don't match between all tab and other tabs
+DEBUG: names of employees who's department value don't match between 'All' and other tabs: [YEN HOANG, VATSAL BAJPAI, AMANDA GRADY, AMANDA VANDIVER]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011) on port 20946
+Only local connections are allowed.
+May 18, 2018 4:25:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="VerifyEmployeeNamesMatchEmployeePortraitsFileNames" classname="Tests.TeamModuleTests" time="3.914">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at Tests.TeamModuleTests.VerifyEmployeeNamesMatchEmployeePortraitsFileNames(TeamModuleTests.java:71)
+</failure>
+    <system-out><![CDATA[alexa
+background-image: url("/img/team/alexa.jpg");
+madas
+background-image: url("/img/team/madas.jpg");
+mikem
+background-image: url("/img/team/mikem.jpg");
+dmitrig
+background-image: url("/img/team/dimitrig.jpg");
+aaronl
+background-image: url("/img/team/aaronl.jpg");
+adamm
+background-image: url("/img/team/adamm.jpg");
+aditiv
+background-image: url("/img/team/aditiv.jpg");
+agrimn
+background-image: url("/img/team/agrimn.jpg");
+ahmedn
+background-image: url("/img/team/ahmedn.jpg");
+alexb
+background-image: url("/img/team/alexb.jpg");
+amandag
+background-image: url("/img/team/amandag.jpg");
+amandam
+background-image: url("/img/team/amandam.jpg");
+amandav
+background-image: url("/img/team/amandav.jpg");
+amarjits
+background-image: url("/img/team/amarjits.jpg");
+amitt
+background-image: url("/img/team/amitt.jpg");
+amrutad
+background-image: url("/img/team/amrutad.jpg");
+anjalik
+background-image: url("/img/team/anjalik.jpg");
+ankits
+background-image: url("/img/team/ankits.jpg");
+aparnav
+background-image: url("/img/team/aparnav.jpg");
+augustush
+background-image: url("/img/team/augustush.jpg");
+barryk
+background-image: url("/img/team/barryk.jpg");
+biswajitd
+background-image: url("/img/team/biswajitd.jpg");
+bradb
+background-image: url("/img/team/bradb.jpg");
+brianc
+background-image: url("/img/team/brianc.jpg");
+briank
+background-image: url("/img/team/briank.jpg");
+brianl
+background-image: url("/img/team/brianl.jpg");
+brians
+background-image: url("/img/team/brians.jpg");
+burhanh
+background-image: url("/img/team/burhanh.jpg");
+catp
+background-image: url("/img/team/catp.jpg");
+christofj
+background-image: url("/img/team/christofj.jpg");
+christopherc
+background-image: url("/img/team/christopherc.jpg");
+clayj
+background-image: url("/img/team/clayj.jpg");
+coreyf
+background-image: url("/img/team/coreyf.jpg");
+cynthiac
+background-image: url("/img/team/cynthiac.jpg");
+daniar
+background-image: url("/img/team/daniar.jpg");
+dannyg
+background-image: url("/img/team/dannyg.jpg");
+davidw
+background-image: url("/img/team/davidw.jpg");
+derricks
+background-image: url("/img/team/derricks.jpg");
+devasmithar
+background-image: url("/img/team/devasmithar.jpg");
+edwards
+background-image: url("/img/team/edwards.jpg");
+elizabethk
+background-image: url("/img/team/elizabethk.jpg");
+ericg
+background-image: url("/img/team/ericg.jpg");
+erics
+background-image: url("/img/team/erics.jpg");
+ethann
+background-image: url("/img/team/ethann.jpg");
+evgeniyh
+background-image: url("/img/team/geneh.jpg");
+farism
+background-image: url("/img/team/farism.jpg");
+felipen
+background-image: url("/img/team/felipen.jpg");
+felixv
+background-image: url("/img/team/felixv.jpg");
+gabrielles
+background-image: url("/img/team/gabrielles.jpg");
+gargic
+background-image: url("/img/team/gargic.jpg");
+garym
+background-image: url("/img/team/garym.jpg");
+gerrity
+background-image: url("/img/team/gerrity.jpg");
+govindk
+background-image: url("/img/team/govindk.jpg");
+haog
+background-image: url("/img/team/haog.jpg");
+harishc
+background-image: url("/img/team/harishc.jpg");
+hemantha
+background-image: url("/img/team/hemantha.jpg");
+hermann
+background-image: url("/img/team/hermann.jpg");
+hubertc
+background-image: url("/img/team/hubertc.jpg");
+ianc
+background-image: url("/img/team/ianc.jpg");
+igorg
+background-image: url("/img/team/igorg.jpg");
+jackiec
+background-image: url("/img/team/jackiec.jpg");
+jakea
+background-image: url("/img/team/jakea.jpg");
+jaredb
+background-image: url("/img/team/jaredbj.jpg");
+jaredo
+background-image: url("/img/team/jaredo.jpg");
+javeriak
+background-image: url("/img/team/javeriak.jpg");
+jimt
+background-image: url("/img/team/jimt.jpg");
+johng
+background-image: url("/img/team/johng.jpg");
+johns
+background-image: url("/img/team/johns.jpg");
+jonn
+background-image: url("/img/team/jonn.jpg");
+jonasb
+background-image: url("/img/team/jonasb.jpg");
+josephg
+background-image: url("/img/team/josephg.jpg");
+judd
+background-image: url("/img/team/judd.jpg");
+juana
+background-image: url("/img/team/juana.jpg");
+kany
+background-image: url("/img/team/kany.jpg");
+kateb
+background-image: url("/img/team/kateb.jpg");
+karenl
+background-image: url("/img/team/karenl.jpg");
+karolinaa
+background-image: url("/img/team/karolinaa.jpg");
+kelseyp
+background-image: url("/img/team/kelseyp.jpg");
+kristyw
+background-image: url("/img/team/kristyw.jpg");
+lilas
+background-image: url("/img/team/lilas.jpg");
+madelineb
+background-image: url("/img/team/madelineb.jpg");
+marshallc
+background-image: url("/img/team/marshallc.jpg");
+matejh
+background-image: url("/img/team/matejh.jpg");
+michaelh
+background-image: url("/img/team/michaelh.jpg");
+michaelk
+background-image: url("/img/team/michaelk.jpg");
+michaeln
+background-image: url("/img/team/michaeln.jpg");
+monicac
+background-image: url("/img/team/monicac.jpg");
+natalir
+background-image: url("/img/team/natalir.jpg");
+navidz
+background-image: url("/img/team/navidz.jpg");
+nicolasb
+background-image: url("/img/team/nicolasb.jpg");
+parulm
+background-image: url("/img/team/parulm.jpg");
+peterl
+background-image: url("/img/team/peterl.jpg");
+prasannar
+background-image: url("/img/team/prasannar.jpg");
+ramseyp
+background-image: url("/img/team/ramseyp.jpg");
+rahuls
+background-image: url("/img/team/rahuls.jpg");
+ricardoa
+background-image: url("/img/team/ricardoa.jpg");
+rubins
+background-image: url("/img/team/rubins.jpg");
+ruic
+background-image: url("/img/team/ruic.jpg");
+ruthp
+background-image: url("/img/team/ruthp.jpg");
+ryanc
+background-image: url("/img/team/ryanc.jpg");
+sahilv
+background-image: url("/img/team/sahilv.jpg");
+salomes
+background-image: url("/img/team/salomes.jpg");
+samirt
+background-image: url("/img/team/samirt.jpg");
+samits
+background-image: url("/img/team/samits.jpg");
+sarahj
+background-image: url("/img/team/sarahj.jpg");
+scottd
+background-image: url("/img/team/scottd.jpg");
+shubhamm
+background-image: url("/img/team/shubhamm.jpg");
+sojanp
+background-image: url("/img/team/sojanp.jpg");
+stacyo
+background-image: url("/img/team/stacyo.jpg");
+stasz
+background-image: url("/img/team/stasz.jpg");
+stephend
+background-image: url("/img/team/stephend.jpg");
+stellaj
+background-image: url("/img/team/stellaj.jpg");
+taek
+background-image: url("/img/team/taek.jpg");
+tamaras
+background-image: url("/img/team/tamaras.jpg");
+tarekt
+background-image: url("/img/team/tarekt.jpg");
+thomasq
+background-image: url("/img/team/thomasq.jpg");
+timc
+background-image: url("/img/team/timc.jpg");
+tracyt
+background-image: url("/img/team/tracyt.jpg");
+tylera
+background-image: url("/img/team/tylera.jpg");
+vatsalb
+background-image: url("/img/team/vatsalb.jpg");
+vikramp
+background-image: url("/img/team/vikramp.jpg");
+vivianat
+background-image: url("/img/team/vivianad.jpg");
+wenchangy
+background-image: url("/img/team/wenchangy.jpg");
+willb
+background-image: url("/img/team/willb.jpg");
+willl
+background-image: url("/img/team/willl.jpg");
+xianc
+background-image: url("/img/team/xianc.jpg");
+yenh
+background-image: url("/img/team/yenh.jpg");
+yuryu
+background-image: url("/img/team/yuryu.jpg");
+zeeshac
+background-image: url("/img/team/zeeshac.jpg");
+DEBUG: Names of employees with non matching images or inconsistently named imageFiles: [DMITRI GASKIN, EVGENIY (GENE) HAYDAMAKHA, VIVIANA DE LA TORRE]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011) on port 32211
+Only local connections are allowed.
+May 18, 2018 4:25:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="verifyEmployeeNamesMatchBetweenAllAndOtherTabs" classname="Tests.TeamModuleTests" time="5.385">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at Tests.TeamModuleTests.verifyEmployeeNamesMatchBetweenAllAndOtherTabs(TeamModuleTests.java:52)
+</failure>
+    <system-out><![CDATA[DEBUG: names found only in All tab: [AMANDA GRADY, AMANDA VANDIVER, VATSAL BAJPAI, YEN HOANG]
+DEBUG: names found only in Other tabs: []
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011) on port 38499
+Only local connections are allowed.
+May 18, 2018 4:25:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs" classname="Tests.TeamModuleTests" time="1.262">
+    <failure message="expected [125] but found [129]" type="java.lang.AssertionError">java.lang.AssertionError: expected [125] but found [129]
+	at Tests.TeamModuleTests.verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs(TeamModuleTests.java:46)
+</failure>
+    <system-out><![CDATA[DEBUG: 129 employee cards are found on 'All' departments tab
+DEBUG: 125 total employee cards are found on 'other' department tabs
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011) on port 35698
+Only local connections are allowed.
+May 18, 2018 4:26:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+</testsuite>
