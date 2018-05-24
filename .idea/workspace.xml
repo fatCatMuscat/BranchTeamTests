@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c2873ce-5539-4b23-8fc0-2e6e7b07bec7" name="Default" comment="" />
+    <list default="true" id="9c2873ce-5539-4b23-8fc0-2e6e7b07bec7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/PageFactories/TeamPageFactory.class" afterPath="$PROJECT_DIR$/target/test-classes/PageFactories/TeamPageFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/TeamPage.class" afterPath="$PROJECT_DIR$/target/test-classes/PageObjects/TeamPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Tests/TeamModuleTests.class" afterPath="$PROJECT_DIR$/target/test-classes/Tests/TeamModuleTests.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Tests/TeamModuleTests.java" afterPath="$PROJECT_DIR$/src/test/java/Tests/TeamModuleTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Utils/BaseTest.java" afterPath="$PROJECT_DIR$/src/test/java/Utils/BaseTest.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +28,8 @@
       <file leaf-file-name="TeamModuleTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Tests/TeamModuleTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1281">
-              <caret line="63" column="76" lean-forward="false" selection-start-line="63" selection-start-column="76" selection-end-line="63" selection-end-column="76" />
+            <state relative-caret-position="370">
+              <caret line="41" column="49" lean-forward="false" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,12 +40,10 @@
       <file leaf-file-name="BranchPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/BranchPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="126">
               <caret line="8" column="66" lean-forward="false" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#437#438#0" expanded="true" />
-                <element signature="e#505#506#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,19 +52,33 @@
       <file leaf-file-name="TeamPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/TeamPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="31" column="52" lean-forward="false" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
+            <state relative-caret-position="106">
+              <caret line="165" column="24" lean-forward="false" selection-start-line="165" selection-start-column="24" selection-end-line="165" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoogleResultsPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/GoogleResultsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="16" column="52" lean-forward="false" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
               <folding>
-                <element signature="method#TeamPage#0;class#TeamPage#0" expanded="false" />
-                <element signature="method#countEmployeeCardsFromAllCategory#0;class#TeamPage#0" expanded="false" />
-                <element signature="method#getListOfStrings#0;class#TeamPage#0" expanded="false" />
-                <element signature="method#getNamesFromAllCategory#0;class#TeamPage#0" expanded="false" />
-                <element signature="method#getNamesFromOtherCategories#0;class#TeamPage#0" expanded="false" />
-                <element signature="method#namesFromAllAndOtherTabsMatch#0;class#TeamPage#0" expanded="false" />
-                <element signature="method#getDepartmentsFromDisplayedCategory#0;class#TeamPage#0" expanded="false" />
-                <element signature="method#getDisplayedImageSourceAttributeText#0;class#TeamPage#0" expanded="false" />
-                <element signature="method#displayedCategoryEmployeeImageMatch#0;class#TeamPage#0" expanded="false" />
-                <element signature="method#createImageName#0;class#TeamPage#0" expanded="false" />
+                <element signature="e#490#491#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GooglePage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/GooglePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,8 +87,8 @@
       <file leaf-file-name="TeamPageFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PageFactories/TeamPageFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+            <state relative-caret-position="357">
+              <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,14 +96,46 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="GoogleResultsPageFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PageFactories/GoogleResultsPageFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Utils/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="485">
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1340#1341#0" expanded="true" />
+                <element signature="e#1369#1370#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BranchPageFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PageFactories/BranchPageFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GooglePageFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PageFactories/GooglePageFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -106,7 +157,11 @@
       <find>RUTH</find>
       <find>HEMANTH</find>
       <find>VIVIANA</find>
+      <find>DEBUG</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -133,10 +188,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/target/surefire-reports/TestSuite-output.txt" />
         <option value="$PROJECT_DIR$/src/test/java/PageObjects/GooglePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Utils/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Tests/TeamModuleTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageFactories/TeamPageFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageObjects/TeamPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Utils/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Tests/TeamModuleTests.java" />
       </list>
     </option>
   </component>
@@ -148,10 +203,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-95" />
-    <option name="y" value="-1036" />
+    <option name="x" value="3" />
+    <option name="y" value="22" />
     <option name="width" value="1401" />
-    <option name="height" value="965" />
+    <option name="height" value="848" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -168,82 +223,71 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="branchchallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="branchchallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="BranchTeamTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BranchTeamTests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="branchchallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="branchchallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="BranchTeamTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BranchTeamTests" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="branchchallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="branchchallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="BranchTeamTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BranchTeamTests" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="branchchallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="branchchallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="BranchTeamTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BranchTeamTests" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="branchchallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="branchchallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="BranchTeamTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BranchTeamTests" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="PageFactories" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="branchchallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="branchchallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="BranchTeamTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BranchTeamTests" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="PageObjects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="branchchallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="branchchallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="BranchTeamTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BranchTeamTests" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="branchchallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="branchchallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="BranchTeamTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BranchTeamTests" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Utils" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="branchchallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="branchchallenge" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="branchchallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="branchchallenge" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="surefire-reports" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -270,7 +314,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TeamModuleTests.test">
+  <component name="RunManager" selected="TestNG.TeamModuleTests.VerifyEmployeeNamesMatchEmployeePortraitsFileNames">
     <configuration name="TeamModuleTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -367,7 +411,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="TeamModuleTests.test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TeamModuleTests.verifyEmployeeNamesMatchBetweenAllAndOtherTabs" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="Tests.*" />
@@ -380,7 +424,7 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="Tests" />
       <option name="MAIN_CLASS_NAME" value="Tests.TeamModuleTests" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="METHOD_NAME" value="verifyEmployeeNamesMatchBetweenAllAndOtherTabs" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -514,17 +558,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="TestNG.TeamModuleTests.verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs" />
       <item index="1" class="java.lang.String" itemvalue="TestNG.TeamModuleTests" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.TeamModuleTests.test" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.TeamModuleTests.VerifyEmployeeNamesMatchEmployeePortraitsFileNames" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.TeamModuleTests.VerifyEmployeeDepartmentsListedCorrectlyBetweenAllAndOtherTabs" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.TeamModuleTests.verifyEmployeeNamesMatchBetweenAllAndOtherTabs" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.TeamModuleTests.VerifyEmployeeDepartmentsListedCorrectlyBetweenAllAndOtherTabs" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.TeamModuleTests.VerifyEmployeeNamesMatchEmployeePortraitsFileNames" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.TeamModuleTests.test" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.TeamModuleTests.VerifyEmployeeNamesMatchEmployeePortraitsFileNames" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.TeamModuleTests.VerifyEmployeeDepartmentsListedCorrectlyBetweenAllAndOtherTabs" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.TeamModuleTests" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.TeamModuleTests.verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.TeamModuleTests.VerifyEmployeeNamesMatchEmployeePortraitsFileNames" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.TeamModuleTests.VerifyEmployeeDepartmentsListedCorrectlyBetweenAllAndOtherTabs" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.TeamModuleTests.verifyEmployeeNamesMatchBetweenAllAndOtherTabs" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.TeamModuleTests.verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.TeamModuleTests" />
       </list>
     </recent_temporary>
   </component>
@@ -542,19 +586,10 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TeamModuleTests_VerifyEmployeeDepartmentsListedCorrectlyBetweenAllAndOtherTabs - 2018.05.18 at 15h 18m 29s.xml">
+    <history-entry file="TeamModuleTests_VerifyEmployeeDepartmentsListedCorrectlyBetweenAllAndOtherTabs - 2018.05.24 at 09h 53m 38s.xml">
       <configuration name="TeamModuleTests.VerifyEmployeeDepartmentsListedCorrectlyBetweenAllAndOtherTabs" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TeamModuleTests_VerifyEmployeeNamesMatchEmployeePortraitsFileNames - 2018.05.18 at 15h 16m 21s.xml">
-      <configuration name="TeamModuleTests.VerifyEmployeeNamesMatchEmployeePortraitsFileNames" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TeamModuleTests_VerifyEmployeeNamesMatchEmployeePortraitsFileNames - 2018.05.18 at 15h 16m 43s.xml">
-      <configuration name="TeamModuleTests.VerifyEmployeeNamesMatchEmployeePortraitsFileNames" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TeamModuleTests_VerifyEmployeeNamesMatchEmployeePortraitsFileNames - 2018.05.18 at 15h 18m 51s.xml">
-      <configuration name="TeamModuleTests.VerifyEmployeeNamesMatchEmployeePortraitsFileNames" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TeamModuleTests_VerifyEmployeeNamesMatchEmployeePortraitsFileNames - 2018.05.18 at 15h 20m 29s.xml">
+    <history-entry file="TeamModuleTests_VerifyEmployeeNamesMatchEmployeePortraitsFileNames - 2018.05.24 at 09h 54m 45s.xml">
       <configuration name="TeamModuleTests.VerifyEmployeeNamesMatchEmployeePortraitsFileNames" configurationId="TestNG" />
     </history-entry>
     <history-entry file="TeamModuleTests_test - 2018.05.18 at 15h 52m 05s.xml">
@@ -572,9 +607,19 @@
     <history-entry file="TeamModuleTests_test - 2018.05.18 at 16h 07m 03s.xml">
       <configuration name="TeamModuleTests.test" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TeamModuleTests_verifyEmployeeNamesMatchBetweenAllAndOtherTabs - 2018.05.24 at 09h 52m 30s.xml">
+      <configuration name="TeamModuleTests.verifyEmployeeNamesMatchBetweenAllAndOtherTabs" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TeamModuleTests_verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs - 2018.05.24 at 09h 50m 50s.xml">
+      <configuration name="TeamModuleTests.verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TeamModuleTests_verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs - 2018.05.24 at 09h 51m 34s.xml">
+      <configuration name="TeamModuleTests.verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-95" y="-1036" width="1401" height="965" extended-state="0" />
+    <frame x="3" y="22" width="1401" height="848" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -584,12 +629,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.7503576" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="393" y="-813" width="1151" height="787" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32873562" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.7503576" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="191" y="64" width="1025" height="769" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32802126" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27299485" sideWeight="0.47925034" order="4" side_tool="false" content_ui="combo" x="26" y="116" width="349" height="362" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2803532" sideWeight="0.47925034" order="4" side_tool="false" content_ui="combo" x="26" y="116" width="349" height="362" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -804,36 +849,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/GoogleResultsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="52" lean-forward="true" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#490#491#0" expanded="false" />
-            <element signature="e#549#550#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/DataTeamPage.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageFactories/BranchPageFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/DataTeamPageObject.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/PageFactories/DataTeamPageFactory.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="549">
           <caret line="110" column="17" lean-forward="false" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -841,7 +863,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5656">
           <caret line="803" column="16" lean-forward="false" selection-start-line="803" selection-start-column="16" selection-end-line="803" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -849,9 +870,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
           <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding>
-            <element signature="e#1316#1317#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -859,7 +877,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -867,7 +884,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
           <caret line="32" column="77" lean-forward="false" selection-start-line="32" selection-start-column="77" selection-end-line="32" selection-end-column="77" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -875,7 +891,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-615">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -883,7 +898,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -891,17 +905,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Utils/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -909,7 +912,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -917,14 +919,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageFactories/GoogleResultsPageFactory.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="288">
+          <caret line="2420" column="20" lean-forward="false" selection-start-line="2420" selection-start-column="20" selection-end-line="2420" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/GoogleResultsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="16" column="52" lean-forward="false" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+          <folding>
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/GooglePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/BranchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="66" lean-forward="false" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageFactories/BranchPageFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -937,53 +976,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/GooglePage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageFactories/GoogleResultsPageFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="84">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/lang/String.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utils/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="2420" column="20" lean-forward="false" selection-start-line="2420" selection-start-column="20" selection-end-line="2420" selection-end-column="20" />
-          <folding>
-            <element signature="e#94598#94599#0" expanded="false" />
-            <element signature="e#94636#94637#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/BranchPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="66" lean-forward="false" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+        <state relative-caret-position="485">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/TeamModuleTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1281">
-          <caret line="63" column="76" lean-forward="false" selection-start-line="63" selection-start-column="76" selection-end-line="63" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1340#1341#0" expanded="true" />
+            <element signature="e#1369#1370#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PageFactories/TeamPageFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        <state relative-caret-position="357">
+          <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/TeamModuleTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="41" column="49" lean-forward="false" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -992,20 +1018,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/TeamPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="31" column="52" lean-forward="false" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
-          <folding>
-            <element signature="method#TeamPage#0;class#TeamPage#0" expanded="false" />
-            <element signature="method#countEmployeeCardsFromAllCategory#0;class#TeamPage#0" expanded="false" />
-            <element signature="method#getListOfStrings#0;class#TeamPage#0" expanded="false" />
-            <element signature="method#getNamesFromAllCategory#0;class#TeamPage#0" expanded="false" />
-            <element signature="method#getNamesFromOtherCategories#0;class#TeamPage#0" expanded="false" />
-            <element signature="method#namesFromAllAndOtherTabsMatch#0;class#TeamPage#0" expanded="false" />
-            <element signature="method#getDepartmentsFromDisplayedCategory#0;class#TeamPage#0" expanded="false" />
-            <element signature="method#getDisplayedImageSourceAttributeText#0;class#TeamPage#0" expanded="false" />
-            <element signature="method#displayedCategoryEmployeeImageMatch#0;class#TeamPage#0" expanded="false" />
-            <element signature="method#createImageName#0;class#TeamPage#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="106">
+          <caret line="165" column="24" lean-forward="false" selection-start-line="165" selection-start-column="24" selection-end-line="165" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
