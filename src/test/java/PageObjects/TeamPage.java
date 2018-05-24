@@ -182,9 +182,6 @@ public class TeamPage extends BaseTest {
             String imageSource = images.get(i).toLowerCase();
             String imageFileName = createImageName(names.get(i).toLowerCase());
 
-            System.out.println(imageFileName);
-            System.out.println(imageSource);
-
             if (!imageSource.contains(imageFileName)) {
                 nonMatchingRecords.add(names.get(i));
             }
