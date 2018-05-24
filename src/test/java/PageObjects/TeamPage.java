@@ -22,7 +22,7 @@ public class TeamPage extends BaseTest {
         return teamPageFactory.displayedEmployeeCards.size();
     }
 
-    public int countEmployeeCardsFromAllCategory() {
+    public int countEmployeeCardsFromAllTab() {
         int allEmployeesQty = countEmployeeCardsDisplayed();
         Reporter.log("DEBUG: " + allEmployeesQty +
                 " employee cards are found on 'All' departments tab", true);
@@ -31,7 +31,7 @@ public class TeamPage extends BaseTest {
 
     public int countSumOfEmployeesFromEachDepartment() {
         int sum = 0;
-        int categoriesQty = teamDepartmentsCount();
+        int categoriesQty = countDepartmentTabs();
         List<WebElement> listOfCategories = teamPageFactory.teamDepartments;
 
         for (int i = 1; i < categoriesQty; i++) {
@@ -58,7 +58,7 @@ public class TeamPage extends BaseTest {
     }
 
     // store employee names in a List of Strings from 'All' tab
-    public List<String> getNamesFromAllCategory() {
+    public List<String> getNamesFromAllTab() {
         List<String> namesFromAllCategory = new ArrayList<String>();
         namesFromAllCategory.addAll(getListOfStrings(teamPageFactory.displayedEmployeeNames));
         if (namesFromAllCategory.isEmpty()) Reporter.log("DEBUG: no employee names elements found", true);
@@ -66,50 +66,50 @@ public class TeamPage extends BaseTest {
     }
 
     // parse employee names and store them in a List
-    public List<String> getNamesFromOtherCategories() {
-        List<String> namesFromOtherCategories = new ArrayList<String>();
-        List<WebElement> currentCategory = teamPageFactory.teamDepartments;
-        for (int i = 1; i < teamDepartmentsCount(); i++) {
-            currentCategory.get(i).click();
-            namesFromOtherCategories.addAll(getListOfStrings(teamPageFactory.displayedEmployeeNames));
+    public List<String> getNamesFromDepartments() {
+        List<String> namesFromDepartments = new ArrayList<String>();
+        List<WebElement> currentDepartment = teamPageFactory.teamDepartments;
+        for (int i = 1; i < countDepartmentTabs(); i++) {
+            currentDepartment.get(i).click();
+            namesFromDepartments.addAll(getListOfStrings(teamPageFactory.displayedEmployeeNames));
         }
-        if (namesFromOtherCategories.isEmpty()) Reporter.log("DEBUG: no employee name elements found", true);
-        return namesFromOtherCategories;
+        if (namesFromDepartments.isEmpty()) Reporter.log("DEBUG: no employee name elements found", true);
+        return namesFromDepartments;
     }
 
     // verify that employee names match between All tab and other tabs and print non-matching names
-    public boolean namesFromAllAndOtherTabsMatch() {
+    public boolean namesFromAllTabAndDepartmentTabsMatch() {
 
-        List<String> namesFromAllCategory = getNamesFromAllCategory();
-        List<String> namesFromOtherCategory = getNamesFromOtherCategories();
+        List<String> namesFromAllTab = getNamesFromAllTab();
+        List<String> namesFromDepartments = getNamesFromDepartments();
         List<String> temp = new ArrayList<String>();
-        temp.addAll(namesFromOtherCategory);
+        temp.addAll(namesFromDepartments);
 
-        namesFromOtherCategory.removeAll(namesFromAllCategory);
-        namesFromAllCategory.removeAll(temp);
+        namesFromDepartments.removeAll(namesFromAllTab);
+        namesFromAllTab.removeAll(temp);
 
-        if (!namesFromAllCategory.isEmpty() || !namesFromOtherCategory.isEmpty()) {
+        if (!namesFromAllTab.isEmpty() || !namesFromDepartments.isEmpty()) {
             Reporter.log("DEBUG: names found only in All tab: " +
-                    Arrays.toString(namesFromAllCategory.toArray()), true);
+                    Arrays.toString(namesFromAllTab.toArray()), true);
             Reporter.log("DEBUG: names found only in Other tabs: " +
-                    Arrays.toString(namesFromOtherCategory.toArray()),true);
+                    Arrays.toString(namesFromDepartments.toArray()),true);
             return false;
         }
         return true;
     }
 
-    public int teamDepartmentsCount() {
+    public int countDepartmentTabs() {
         return teamPageFactory.teamDepartments.size();
     }
 
-    public List<String> getDepartmentsFromDisplayedCategory() {
-        List<String> departmentsFromDisplayedCategory = new ArrayList<String>();
+    public List<String> getEmployeeDepartmentsFromDisplayedDptTab() {
+        List<String> employeeDepartmentsFromCurrentDptTab = new ArrayList<String>();
 
-        departmentsFromDisplayedCategory = getListOfStrings(teamPageFactory.displayedEmployeeDepartment);
+        employeeDepartmentsFromCurrentDptTab = getListOfStrings(teamPageFactory.displayedEmployeeDepartment);
 
-        if (departmentsFromDisplayedCategory.isEmpty())
+        if (employeeDepartmentsFromCurrentDptTab.isEmpty())
             Reporter.log("DEBUG: no employee department elements found", true);
-        return departmentsFromDisplayedCategory;
+        return employeeDepartmentsFromCurrentDptTab;
     }
 
     public List<String> getNamesOfDepartments() {
@@ -123,8 +123,8 @@ public class TeamPage extends BaseTest {
 
     public Map<String, String> getNamesAndDepartmentsOfEmployees() {
         HashMap<String, String> nameDpt = new HashMap<String, String>();
-        List<String> names = getNamesFromAllCategory();
-        List<String> dpts = getDepartmentsFromDisplayedCategory();
+        List<String> names = getNamesFromAllTab();
+        List<String> dpts = getEmployeeDepartmentsFromDisplayedDptTab();
 
         for (int i = 0; i < countEmployeeCardsDisplayed(); i++) {
             nameDpt.put(names.get(i), dpts.get(i));
@@ -145,12 +145,13 @@ public class TeamPage extends BaseTest {
         return otherEmployeesNamesDpts;
     }
 
-    public boolean dptMatchAllOtherTabs(Map<String, String> map1, Map<String, String> map2) {
-        if(map1.size() != map2.size())
+    public boolean employeeDepartmentsMatchBetweenAllAndDepartmentsTabs
+            (Map<String, String> employeesInAllTab, Map<String, String> employeesInDptTab) {
+        if(employeesInAllTab.size() != employeesInDptTab.size())
             Reporter.log("DEBUG: number of employees don't match between all tab and other tabs", true);
         List<String> nonMatchingDptEmployees = new ArrayList<String>();
-        for (String name: map1.keySet()) {
-            if (!map1.get(name).equalsIgnoreCase(map2.get(name))) {
+        for (String name: employeesInAllTab.keySet()) {
+            if (!employeesInAllTab.get(name).equalsIgnoreCase(employeesInDptTab.get(name))) {
                 nonMatchingDptEmployees.add(name);
             }
         }
@@ -173,7 +174,7 @@ public class TeamPage extends BaseTest {
         return stringArrayList;
     }
 
-    public boolean displayedCategoryEmployeeImageMatch(List<String> names, List<String> images) {
+    public boolean displayedDepartmentEmployeeImageMatch(List<String> names, List<String> images) {
 
         List<String> nonMatchingRecords = new ArrayList<>();
 

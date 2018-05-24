@@ -14,7 +14,7 @@ public class TeamModuleTests extends BaseTest {
     @Test (groups = "team")
     public void verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs() {
         TeamPage teamPage = new TeamPage();
-        int allEmployees = teamPage.countEmployeeCardsFromAllCategory();
+        int allEmployees = teamPage.countEmployeeCardsFromAllTab();
         int otherEmployees = teamPage.countSumOfEmployeesFromEachDepartment();
         Assert.assertEquals(allEmployees, otherEmployees);
     }
@@ -22,7 +22,7 @@ public class TeamModuleTests extends BaseTest {
     @Test (groups = "team")
     public void verifyEmployeeNamesMatchBetweenAllAndOtherTabs() {
         TeamPage teamPage = new TeamPage();
-        Assert.assertTrue(teamPage.namesFromAllAndOtherTabsMatch());
+        Assert.assertTrue(teamPage.namesFromAllTabAndDepartmentTabsMatch());
     }
 
 
@@ -31,7 +31,7 @@ public class TeamModuleTests extends BaseTest {
         TeamPage teamPage = new TeamPage();
         Map<String, String> allEmployeesNamesDepts = teamPage.getNamesAndDepartmentsOfEmployees();
         Map<String, String> otherEmployeesNamesDepts = teamPage.getNamesAndDptsOfEmployeesFromOtherCategories();
-        Assert.assertTrue(teamPage.dptMatchAllOtherTabs(allEmployeesNamesDepts, otherEmployeesNamesDepts));
+        Assert.assertTrue(teamPage.employeeDepartmentsMatchBetweenAllAndDepartmentsTabs(allEmployeesNamesDepts, otherEmployeesNamesDepts));
     }
 
     //Employee image file names contain first name of employee and the first letter of the last name,
@@ -40,8 +40,8 @@ public class TeamModuleTests extends BaseTest {
     public void VerifyEmployeeNamesMatchEmployeePortraitsFileNames() {
         TeamPage teamPage = new TeamPage();
         List<String> images = teamPage.getDisplayedImageSourceAttributeText();
-        List<String> names = teamPage.getNamesFromAllCategory();
-        Assert.assertTrue(teamPage.displayedCategoryEmployeeImageMatch(names, images));
+        List<String> names = teamPage.getNamesFromAllTab();
+        Assert.assertTrue(teamPage.displayedDepartmentEmployeeImageMatch(names, images));
     }
 
 
