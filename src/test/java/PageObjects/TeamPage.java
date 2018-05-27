@@ -119,6 +119,7 @@ public class TeamPage extends BaseTest {
         return namesOfDpts;
     }
 
+    // return a Map, Key = Employee's name, Value = Employee's dept
     public Map<String, String> getNamesAndDepartmentsOfEmployees() {
         HashMap<String, String> nameDpt = new HashMap<String, String>();
         List<String> names = getNamesFromAllTab();
@@ -130,6 +131,7 @@ public class TeamPage extends BaseTest {
         return nameDpt;
     }
 
+    // traverse department tabs 1 by 1 and  return a Map, Key = Employee's name, Value = Employee's dept
     public Map<String, String> getNamesAndDptsOfEmployeesFromDepartmentTabs() {
 
         List<WebElement> teamCats = teamPageFactory.teamDepartments;
@@ -172,10 +174,9 @@ public class TeamPage extends BaseTest {
         return stringArrayList;
     }
 
+    // match names of employees to their portrait image file names and return names of non matching employees
     public boolean displayedDepartmentEmployeeImageMatch(List<String> names, List<String> images) {
-
         List<String> nonMatchingRecords = new ArrayList<>();
-
         for (int i = 0; i < names.size(); i++) {
 
             String imageSource = images.get(i).toLowerCase();
@@ -194,6 +195,7 @@ public class TeamPage extends BaseTest {
         return true;
     }
 
+    // modify employee name and return portrait image file name
     public String createImageName(String empName) {
         StringBuilder iN = new StringBuilder();
 

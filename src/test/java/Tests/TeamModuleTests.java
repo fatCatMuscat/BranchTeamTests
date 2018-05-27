@@ -15,9 +15,7 @@ public class TeamModuleTests extends BaseTest {
     @Test (groups = "team")
     public void verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs() {
         TeamPage teamPage = new TeamPage();
-        int allEmployeesQty = teamPage.countEmployeeCardsFromAllTab();
-        int employeesFromDepartmentTabsQty = teamPage.countSumOfEmployeesFromEachDepartment();
-        Assert.assertEquals(allEmployeesQty, employeesFromDepartmentTabsQty);
+        Assert.assertEquals(teamPage.countEmployeeCardsFromAllTab(), teamPage.countSumOfEmployeesFromEachDepartment());
     }
 
     @Test (groups = "team")
