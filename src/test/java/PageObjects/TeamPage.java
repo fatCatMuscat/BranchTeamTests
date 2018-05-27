@@ -38,7 +38,6 @@ public class TeamPage extends BaseTest {
             listOfCategories.get(i).click();
             sum += countEmployeeCardsDisplayed();
         }
-
         Reporter.log("DEBUG: " + sum +
                 " total employee cards are found on 'other' department tabs", true);
         return sum;
@@ -59,8 +58,7 @@ public class TeamPage extends BaseTest {
 
     // store employee names in a List of Strings from 'All' tab
     public List<String> getNamesFromAllTab() {
-        List<String> namesFromAllCategory = new ArrayList<String>();
-        namesFromAllCategory.addAll(getListOfStrings(teamPageFactory.displayedEmployeeNames));
+        List<String> namesFromAllCategory = new ArrayList<String>(getListOfStrings(teamPageFactory.displayedEmployeeNames));
         if (namesFromAllCategory.isEmpty()) Reporter.log("DEBUG: no employee names elements found", true);
         return namesFromAllCategory;
     }
@@ -132,7 +130,7 @@ public class TeamPage extends BaseTest {
         return nameDpt;
     }
 
-    public Map<String, String> getNamesAndDptsOfEmployeesFromOtherCategories() {
+    public Map<String, String> getNamesAndDptsOfEmployeesFromDepartmentTabs() {
 
         List<WebElement> teamCats = teamPageFactory.teamDepartments;
         int qtyCategories = teamCats.size();

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>TeamModuleSuite</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/4/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/4/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri May 18 16:25:10 PDT 2018</td>
+<td>Started on:</td><td>Sun May 27 14:16:38 PDT 2018</td>
 </tr>
-<tr><td>Total time:</td><td>70 seconds (70106 ms)</td>
+<tr><td>Total time:</td><td>128 seconds (128708 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td>team </td>
 </tr><tr>
@@ -75,30 +75,30 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Tests.TeamModuleTests.VerifyEmployeeDepartmentsListedCorrectlyBetweenAllAndOtherTabs()'><b>VerifyEmployeeDepartmentsListedCorrectlyBetweenAllAndOtherTabs</b><br>Test class: Tests.TeamModuleTests<br/>
-<a href="#Output-971722931" onClick='toggleBox("Output-971722931", this, "Show output", "Hide output");'>Show output</a>
+<td title='Tests.TeamModuleTests.VerifyEmployeeDepartmentsListedCorrectlyBetweenAllTabAndDepartmentsTabs()'><b>VerifyEmployeeDepartmentsListedCorrectlyBetweenAllTabAndDepartmentsTabs</b><br>Test class: Tests.TeamModuleTests<br/>
+<a href="#Output-574622929" onClick='toggleBox("Output-574622929", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-971722931" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-971722931">
+<a href="#Output-574622929" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-574622929">
 DEBUG: number of employees don't match between all tab and other tabs<br/>
-DEBUG: names of employees who's department value don't match between 'All' and other tabs: [YEN HOANG, VATSAL BAJPAI, AMANDA GRADY, AMANDA VANDIVER]<br/>
+DEBUG: names of employees who's department value don't match between 'All' and other tabs: [YEN HOANG, VATSAL BAJPAI, AMANDA GRADY, AMANDA VANDIVER, MARK WEILER]<br/>
 </div>
 </td>
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at Tests.TeamModuleTests.VerifyEmployeeDepartmentsListedCorrectlyBetweenAllAndOtherTabs(TeamModuleTests.java:61)
+	at Tests.TeamModuleTests.VerifyEmployeeDepartmentsListedCorrectlyBetweenAllTabAndDepartmentsTabs(TeamModuleTests.java:35)
 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
 	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace971722931", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace971722931'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace574622929", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace574622929'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertTrue(Assert.java:42)
 	at org.testng.Assert.assertTrue(Assert.java:52)
-	at Tests.TeamModuleTests.VerifyEmployeeDepartmentsListedCorrectlyBetweenAllAndOtherTabs(TeamModuleTests.java:61)
+	at Tests.TeamModuleTests.VerifyEmployeeDepartmentsListedCorrectlyBetweenAllTabAndDepartmentsTabs(TeamModuleTests.java:35)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -127,32 +127,32 @@ DEBUG: names of employees who's department value don't match between 'All' and o
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
 </pre></div></td>
-<td>15</td>
-<td>Tests.TeamModuleTests@21bcffb5</td></tr>
+<td>18</td>
+<td>Tests.TeamModuleTests@49c386c8</td></tr>
 <tr>
-<td title='Tests.TeamModuleTests.VerifyEmployeeNamesMatchEmployeePortraitsFileNames()'><b>VerifyEmployeeNamesMatchEmployeePortraitsFileNames</b><br>Test class: Tests.TeamModuleTests<br/>
-<a href="#Output-497741056" onClick='toggleBox("Output-497741056", this, "Show output", "Hide output");'>Show output</a>
+<td title='Tests.TeamModuleTests.VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnAllTab()'><b>VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnAllTab</b><br>Test class: Tests.TeamModuleTests<br/>
+<a href="#Output-756519696" onClick='toggleBox("Output-756519696", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-497741056" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-497741056">
-DEBUG: Names of employees with non matching images or inconsistently named imageFiles: [DMITRI GASKIN, EVGENIY (GENE) HAYDAMAKHA, VIVIANA DE LA TORRE]<br/>
+<a href="#Output-756519696" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-756519696">
+DEBUG: Names of employees with non matching images or inconsistently named imageFiles: [DMITRI GASKIN, ANGELICA MARTINEZ, ANN MASSOUD, ANUP OSTWAL, CATHLEEN HARTGE, EMRE AKSOY, EVAN KAPLAN, EVGENIY (GENE) HAYDAMAKHA, GAUTIER DESSE, JYOTSNA JAYARAMAN, MARC RITTER, MARK WEILER, MAURO SINCHE, MEGAN BEATY, MICHELLE LERNER, MINESH KHER, NIDHI MIGLANI, NEIL MA, PATRICK VAN DER STEEN, SHELBY SIMS, THIBAUT SOUYRIS, VIVIANA DE LA TORRE]<br/>
 </div>
 </td>
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at Tests.TeamModuleTests.VerifyEmployeeNamesMatchEmployeePortraitsFileNames(TeamModuleTests.java:71)
+	at Tests.TeamModuleTests.VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnAllTab(TeamModuleTests.java:45)
 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
 	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace497741056", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace497741056'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace756519696", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace756519696'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertTrue(Assert.java:42)
 	at org.testng.Assert.assertTrue(Assert.java:52)
-	at Tests.TeamModuleTests.VerifyEmployeeNamesMatchEmployeePortraitsFileNames(TeamModuleTests.java:71)
+	at Tests.TeamModuleTests.VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnAllTab(TeamModuleTests.java:45)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -181,33 +181,33 @@ DEBUG: Names of employees with non matching images or inconsistently named image
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
 </pre></div></td>
-<td>3</td>
-<td>Tests.TeamModuleTests@21bcffb5</td></tr>
+<td>4</td>
+<td>Tests.TeamModuleTests@49c386c8</td></tr>
 <tr>
 <td title='Tests.TeamModuleTests.verifyEmployeeNamesMatchBetweenAllAndOtherTabs()'><b>verifyEmployeeNamesMatchBetweenAllAndOtherTabs</b><br>Test class: Tests.TeamModuleTests<br/>
-<a href="#Output-760976736" onClick='toggleBox("Output-760976736", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-706899593" onClick='toggleBox("Output-706899593", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-760976736" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-760976736">
-DEBUG: names found only in All tab: [AMANDA GRADY, AMANDA VANDIVER, VATSAL BAJPAI, YEN HOANG]<br/>
+<a href="#Output-706899593" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-706899593">
+DEBUG: names found only in All tab: [AMANDA GRADY, AMANDA VANDIVER, MARK WEILER, VATSAL BAJPAI, YEN HOANG]<br/>
 DEBUG: names found only in Other tabs: []<br/>
 </div>
 </td>
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at Tests.TeamModuleTests.verifyEmployeeNamesMatchBetweenAllAndOtherTabs(TeamModuleTests.java:52)
+	at Tests.TeamModuleTests.verifyEmployeeNamesMatchBetweenAllAndOtherTabs(TeamModuleTests.java:26)
 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
 	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace760976736", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace760976736'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace706899593", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace706899593'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertTrue(Assert.java:42)
 	at org.testng.Assert.assertTrue(Assert.java:52)
-	at Tests.TeamModuleTests.verifyEmployeeNamesMatchBetweenAllAndOtherTabs(TeamModuleTests.java:52)
+	at Tests.TeamModuleTests.verifyEmployeeNamesMatchBetweenAllAndOtherTabs(TeamModuleTests.java:26)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -236,34 +236,34 @@ DEBUG: names found only in Other tabs: []<br/>
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
 </pre></div></td>
-<td>5</td>
-<td>Tests.TeamModuleTests@21bcffb5</td></tr>
+<td>7</td>
+<td>Tests.TeamModuleTests@49c386c8</td></tr>
 <tr>
 <td title='Tests.TeamModuleTests.verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs()'><b>verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs</b><br>Test class: Tests.TeamModuleTests<br/>
-<a href="#Output-1232293691" onClick='toggleBox("Output-1232293691", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-791851498" onClick='toggleBox("Output-791851498", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1232293691" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1232293691">
-DEBUG: 129 employee cards are found on 'All' departments tab<br/>
-DEBUG: 125 total employee cards are found on 'other' department tabs<br/>
+<a href="#Output-791851498" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-791851498">
+DEBUG: 143 employee cards are found on 'All' departments tab<br/>
+DEBUG: 138 total employee cards are found on 'other' department tabs<br/>
 </div>
 </td>
-<td><div><pre>java.lang.AssertionError: expected [125] but found [129]
-	at Tests.TeamModuleTests.verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs(TeamModuleTests.java:46)
+<td><div><pre>java.lang.AssertionError: expected [138] but found [143]
+	at Tests.TeamModuleTests.verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs(TeamModuleTests.java:20)
 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
 	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1232293691", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1232293691'><pre>java.lang.AssertionError: expected [125] but found [129]
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace791851498", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace791851498'><pre>java.lang.AssertionError: expected [138] but found [143]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertEquals(Assert.java:123)
 	at org.testng.Assert.assertEquals(Assert.java:370)
 	at org.testng.Assert.assertEquals(Assert.java:380)
-	at Tests.TeamModuleTests.verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs(TeamModuleTests.java:46)
+	at Tests.TeamModuleTests.verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs(TeamModuleTests.java:20)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -293,7 +293,20 @@ DEBUG: 125 total employee cards are found on 'other' department tabs<br/>
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
 </pre></div></td>
 <td>1</td>
-<td>Tests.TeamModuleTests@21bcffb5</td></tr>
+<td>Tests.TeamModuleTests@49c386c8</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Tests.TeamModuleTests.VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnDepartmentTabs()'><b>VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnDepartmentTabs</b><br>Test class: Tests.TeamModuleTests</td>
+<td></td>
+<td>0</td>
+<td>Tests.TeamModuleTests@49c386c8</td></tr>
 </table><p>
 </body>
 </html>

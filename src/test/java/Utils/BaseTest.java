@@ -3,6 +3,7 @@ package Utils;
 import PageObjects.BranchPage;
 import PageObjects.GooglePage;
 import PageObjects.GoogleResultsPage;
+import org.apache.logging.log4j.LogManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -15,6 +16,7 @@ import org.testng.annotations.BeforeMethod;
 public class BaseTest {
 
     protected static WebDriver driver;
+    protected static org.apache.logging.log4j.Logger logger = LogManager.getLogger(Tests.TeamModuleTests.class);
 
     @BeforeMethod(groups = "team")
     public void navigateToBranchViaGoogleSearchAndOpenTeamPage() {
