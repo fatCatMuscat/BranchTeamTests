@@ -19,6 +19,8 @@ public class TeamPage extends BaseTest {
     }
 
     public int countEmployeeCardsDisplayed() {
+        if (teamPageFactory.displayedEmployeeCards.size() <= 0)
+            logger.error("ERROR no employee cards found on the page");
         return teamPageFactory.displayedEmployeeCards.size();
     }
 
@@ -29,13 +31,21 @@ public class TeamPage extends BaseTest {
         return allEmployeesQty;
     }
 
+    public int countDepartmentTabs() {
+        if (teamPageFactory.teamDepartments.size() <= 0)
+            logger.error("ERROR no department tabs found on the page");
+        return teamPageFactory.teamDepartments.size();
+    }
+
     public int countSumOfEmployeesFromEachDepartment() {
         int sum = 0;
         int categoriesQty = countDepartmentTabs();
-        List<WebElement> listOfCategories = teamPageFactory.teamDepartments;
+        List<WebElement> teamDepartments = teamPageFactory.teamDepartments;
+        if (teamDepartments.size() <= 0)
+            logger.error("ERROR no team departments tab web elements added to the list of departments");
 
         for (int i = 1; i < categoriesQty; i++) {
-            listOfCategories.get(i).click();
+            teamDepartments.get(i).click();
             sum += countEmployeeCardsDisplayed();
         }
         Reporter.log("DEBUG: " + sum +
@@ -96,9 +106,7 @@ public class TeamPage extends BaseTest {
         return true;
     }
 
-    public int countDepartmentTabs() {
-        return teamPageFactory.teamDepartments.size();
-    }
+
 
     public List<String> getEmployeeDepartmentsFromDisplayedDptTab() {
         List<String> employeeDepartmentsFromCurrentDptTab = new ArrayList<String>();
