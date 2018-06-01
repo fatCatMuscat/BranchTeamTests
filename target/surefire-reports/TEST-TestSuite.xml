@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="130.613" tests="5" errors="0" skipped="0" failures="4">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="118.827" tests="5" errors="0" skipped="0" failures="4">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib"/>
@@ -62,55 +62,55 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="VerifyEmployeeDepartmentsListedCorrectlyBetweenAllTabAndDepartmentsTabs" classname="Tests.TeamModuleTests" time="18.086">
+  <testcase name="VerifyEmployeeDepartmentsListedCorrectlyBetweenAllTabAndDepartmentsTabs" classname="Tests.TeamModuleTests" time="17.431">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at Tests.TeamModuleTests.VerifyEmployeeDepartmentsListedCorrectlyBetweenAllTabAndDepartmentsTabs(TeamModuleTests.java:35)
+	at Tests.TeamModuleTests.VerifyEmployeeDepartmentsListedCorrectlyBetweenAllTabAndDepartmentsTabs(TeamModuleTests.java:33)
 </failure>
     <system-out><![CDATA[DEBUG: number of employees don't match between all tab and other tabs
 DEBUG: names of employees who's department value don't match between 'All' and other tabs: [YEN HOANG, VATSAL BAJPAI, AMANDA GRADY, AMANDA VANDIVER, MARK WEILER]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011) on port 9766
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011) on port 30070
 Only local connections are allowed.
-May 27, 2018 2:16:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 31, 2018 8:36:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnAllTab" classname="Tests.TeamModuleTests" time="4.505">
+  <testcase name="VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnAllTab" classname="Tests.TeamModuleTests" time="4.112">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at Tests.TeamModuleTests.VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnAllTab(TeamModuleTests.java:45)
+	at Tests.TeamModuleTests.VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnAllTab(TeamModuleTests.java:43)
 </failure>
     <system-out><![CDATA[DEBUG: Names of employees with non matching images or inconsistently named imageFiles: [DMITRI GASKIN, ANGELICA MARTINEZ, ANN MASSOUD, ANUP OSTWAL, CATHLEEN HARTGE, EMRE AKSOY, EVAN KAPLAN, EVGENIY (GENE) HAYDAMAKHA, GAUTIER DESSE, JYOTSNA JAYARAMAN, MARC RITTER, MARK WEILER, MAURO SINCHE, MEGAN BEATY, MICHELLE LERNER, MINESH KHER, NIDHI MIGLANI, NEIL MA, PATRICK VAN DER STEEN, SHELBY SIMS, THIBAUT SOUYRIS, VIVIANA DE LA TORRE]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011) on port 36839
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011) on port 38019
 Only local connections are allowed.
-May 27, 2018 2:17:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 31, 2018 8:37:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnDepartmentTabs" classname="Tests.TeamModuleTests" time="0.063"/>
-  <testcase name="verifyEmployeeNamesMatchBetweenAllAndOtherTabs" classname="Tests.TeamModuleTests" time="7.375">
+  <testcase name="VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnDepartmentTabs" classname="Tests.TeamModuleTests" time="0.088"/>
+  <testcase name="verifyEmployeeNamesMatchBetweenAllAndOtherTabs" classname="Tests.TeamModuleTests" time="5.637">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at Tests.TeamModuleTests.verifyEmployeeNamesMatchBetweenAllAndOtherTabs(TeamModuleTests.java:26)
+	at Tests.TeamModuleTests.verifyEmployeeNamesMatchBetweenAllAndOtherTabs(TeamModuleTests.java:24)
 </failure>
     <system-out><![CDATA[DEBUG: names found only in All tab: [AMANDA GRADY, AMANDA VANDIVER, MARK WEILER, VATSAL BAJPAI, YEN HOANG]
 DEBUG: names found only in Other tabs: []
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011) on port 29590
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011) on port 17101
 Only local connections are allowed.
-May 27, 2018 2:17:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 31, 2018 8:38:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs" classname="Tests.TeamModuleTests" time="1.413">
+  <testcase name="verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs" classname="Tests.TeamModuleTests" time="1.165">
     <failure message="expected [138] but found [143]" type="java.lang.AssertionError">java.lang.AssertionError: expected [138] but found [143]
-	at Tests.TeamModuleTests.verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs(TeamModuleTests.java:20)
+	at Tests.TeamModuleTests.verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs(TeamModuleTests.java:18)
 </failure>
     <system-out><![CDATA[DEBUG: 143 employee cards are found on 'All' departments tab
 DEBUG: 138 total employee cards are found on 'other' department tabs
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011) on port 9747
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011) on port 49010
 Only local connections are allowed.
-May 27, 2018 2:18:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 31, 2018 8:38:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>

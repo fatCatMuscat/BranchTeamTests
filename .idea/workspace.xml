@@ -2,7 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c2873ce-5539-4b23-8fc0-2e6e7b07bec7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/base.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Acceptance Suite/TeamModuleSuite.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Acceptance Suite/TeamModuleSuite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Acceptance Suite/TeamModuleSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Acceptance Suite/TeamModuleSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Acceptance Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Acceptance Suite/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite-output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite-output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Tests.TeamModuleTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Tests.TeamModuleTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Acceptance Suite/groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Acceptance Suite/groups.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Acceptance Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Acceptance Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Acceptance Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Acceptance Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Acceptance Suite/reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Acceptance Suite/reporter-output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Acceptance Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Acceptance Suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/TeamPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PageObjects/TeamPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/TeamModuleTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/TeamModuleTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utils/BaseTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,8 +45,8 @@
       <file leaf-file-name="TeamModuleTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Tests/TeamModuleTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="730">
-              <caret line="56" column="41" lean-forward="true" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
+            <state relative-caret-position="1218">
+              <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,8 +57,8 @@
       <file leaf-file-name="teamModuleTests.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/teamModuleTests.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <state relative-caret-position="126">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -50,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TeamPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/TeamPage.java">
+      <file leaf-file-name="base.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/base.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="132" column="75" selection-start-line="132" selection-start-column="75" selection-end-line="132" selection-end-column="75" />
+            <state relative-caret-position="84">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -71,7 +93,7 @@
       <file leaf-file-name="GoogleResultsPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/GoogleResultsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
+            <state relative-caret-position="273">
               <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
               <folding>
                 <element signature="e#490#491#0" expanded="true" />
@@ -85,7 +107,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/PageFactories/TeamPageFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="294">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,14 +127,10 @@
       <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Utils/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+            <state relative-caret-position="604">
+              <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1267#1268#0" expanded="true" />
-                <element signature="e#1296#1297#0" expanded="true" />
-                <element signature="e#1419#1420#0" expanded="true" />
-                <element signature="e#1470#1471#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -165,10 +183,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/main/java/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/PageObjects/TeamPage.java" />
         <option value="$PROJECT_DIR$/teamModuleTests.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/Utils/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tests/TeamModuleTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/TeamPage.java" />
+        <option value="$PROJECT_DIR$/src/test/base.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/Utils/BaseTest.java" />
       </list>
     </option>
   </component>
@@ -180,9 +199,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-229" />
+    <option name="x" value="-254" />
     <option name="y" value="-1058" />
-    <option name="width" value="1625" />
+    <option name="width" value="1348" />
     <option name="height" value="1058" />
   </component>
   <component name="ProjectView">
@@ -190,6 +209,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -252,23 +273,10 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Utils" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="BranchTeamTests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BranchTeamTests" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BranchTeamTests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BranchTeamTests" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="surefire-reports" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -521,15 +529,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TeamModuleTests_loggerTest - 2018.05.26 at 16h 26m 34s.xml">
-      <configuration name="TeamModuleTests.loggerTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TeamModuleTests_loggerTest - 2018.05.26 at 16h 26m 42s.xml">
-      <configuration name="TeamModuleTests.loggerTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TeamModuleTests_loggerTest - 2018.05.26 at 16h 26m 56s.xml">
-      <configuration name="TeamModuleTests.loggerTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TeamModuleTests_loggerTest - 2018.05.26 at 16h 27m 01s.xml">
       <configuration name="TeamModuleTests.loggerTest" configurationId="TestNG" />
     </history-entry>
@@ -551,9 +550,18 @@
     <history-entry file="TeamModuleTests_verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs - 2018.05.26 at 17h 22m 36s.xml">
       <configuration name="TeamModuleTests.verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TeamModuleTests_verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs - 2018.05.31 at 20h 29m 35s.xml">
+      <configuration name="TeamModuleTests.verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TeamModuleTests_verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs - 2018.05.31 at 20h 31m 10s.xml">
+      <configuration name="TeamModuleTests.verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TeamModuleTests_verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs - 2018.05.31 at 20h 36m 42s.xml">
+      <configuration name="TeamModuleTests.verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-229" y="-1058" width="1625" height="1058" extended-state="0" />
+    <frame x="-254" y="-1058" width="1348" height="1058" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="9" />
@@ -564,23 +572,23 @@
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="2" />
       <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="right" x="-91" y="-996" width="1300" height="912" id="Run" order="7" type="FLOATING" weight="0.7503576" />
-      <window_info anchor="bottom" id="Terminal" order="3" visible="true" weight="0.25598335" />
+      <window_info anchor="right" x="-230" y="-945" width="1300" height="832" id="Run" order="7" type="FLOATING" weight="0.7503576" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.25598335" />
       <window_info id="Capture Tool" order="1" />
       <window_info anchor="right" id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" x="26" y="116" width="349" height="362" id="Project" order="4" sideWeight="0.47925034" visible="true" weight="0.17687935" />
+      <window_info content_ui="combo" x="26" y="116" width="349" height="362" id="Project" order="4" sideWeight="0.47925034" visible="true" weight="0.21745789" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="3" sideWeight="0.5207497" side_tool="true" weight="0.24964234" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.5471264" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.54630595" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="right" id="Commander" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="4" />
     </layout>
   </component>
@@ -589,17 +597,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="16" />
+      <option name="time" value="17" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar!/org/openqa/selenium/support/pagefactory/DefaultElementLocator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar!/org/openqa/selenium/support/pagefactory/internal/LocatingElementHandler.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -816,13 +817,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageFactories/GoogleResultsPageFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/GooglePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
@@ -830,34 +824,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log4j2.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="46" lean-forward="true" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/log4j2.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>
@@ -870,7 +842,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/GoogleResultsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
+        <state relative-caret-position="273">
           <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
           <folding>
             <element signature="e#490#491#0" expanded="true" />
@@ -884,30 +856,40 @@
         <state relative-caret-position="-1390" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/TeamPage.java">
+    <entry file="file://$PROJECT_DIR$/teamModuleTests.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="132" column="75" selection-start-line="132" selection-start-column="75" selection-end-line="132" selection-end-column="75" />
+        <state relative-caret-position="126">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/teamModuleTests.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageFactories/GoogleResultsPageFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="84">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/base.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Utils/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        <state relative-caret-position="604">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1267#1268#0" expanded="true" />
-            <element signature="e#1296#1297#0" expanded="true" />
-            <element signature="e#1419#1420#0" expanded="true" />
-            <element signature="e#1470#1471#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -915,17 +897,44 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/PageFactories/TeamPageFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/TeamPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+          <folding>
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#1787#1795#0" expanded="true" />
+            <element signature="e#2109#2117#0" expanded="true" />
+            <element signature="e#2490#2498#0" expanded="true" />
+            <element signature="e#3278#3286#0" expanded="true" />
+            <element signature="e#4099#4107#0" expanded="true" />
+            <element signature="e#4933#4949#0" expanded="true" />
+            <element signature="e#5602#5618#0" expanded="true" />
+            <element signature="e#6243#6251#0" expanded="true" />
+            <element signature="e#7022#7030#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Tests/TeamModuleTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="730">
-          <caret line="56" column="41" lean-forward="true" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
+        <state relative-caret-position="1218">
+          <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

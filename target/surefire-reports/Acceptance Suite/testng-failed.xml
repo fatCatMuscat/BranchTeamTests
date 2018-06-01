@@ -14,6 +14,7 @@
           <include name="VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnAllTab"/>
           <include name="navigateToBranchViaGoogleSearchAndOpenTeamPage"/>
           <include name="VerifyEmployeeDepartmentsListedCorrectlyBetweenAllTabAndDepartmentsTabs"/>
+          <include name="setUp"/>
           <include name="verifyEmployeeNamesMatchBetweenAllAndOtherTabs"/>
           <include name="verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs"/>
         </methods>

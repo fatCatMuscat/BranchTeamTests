@@ -1,27 +1,27 @@
-Starting ChromeDriver 2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011) on port 9766
+Starting ChromeDriver 2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011) on port 30070
 Only local connections are allowed.
-May 27, 2018 2:16:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 31, 2018 8:36:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 DEBUG: number of employees don't match between all tab and other tabs
 DEBUG: names of employees who's department value don't match between 'All' and other tabs: [YEN HOANG, VATSAL BAJPAI, AMANDA GRADY, AMANDA VANDIVER, MARK WEILER]
-Starting ChromeDriver 2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011) on port 36839
+Starting ChromeDriver 2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011) on port 38019
 Only local connections are allowed.
-May 27, 2018 2:17:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 31, 2018 8:37:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 DEBUG: Names of employees with non matching images or inconsistently named imageFiles: [DMITRI GASKIN, ANGELICA MARTINEZ, ANN MASSOUD, ANUP OSTWAL, CATHLEEN HARTGE, EMRE AKSOY, EVAN KAPLAN, EVGENIY (GENE) HAYDAMAKHA, GAUTIER DESSE, JYOTSNA JAYARAMAN, MARC RITTER, MARK WEILER, MAURO SINCHE, MEGAN BEATY, MICHELLE LERNER, MINESH KHER, NIDHI MIGLANI, NEIL MA, PATRICK VAN DER STEEN, SHELBY SIMS, THIBAUT SOUYRIS, VIVIANA DE LA TORRE]
-Starting ChromeDriver 2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011) on port 33090
+Starting ChromeDriver 2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011) on port 32263
 Only local connections are allowed.
-May 27, 2018 2:17:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 31, 2018 8:37:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
-Starting ChromeDriver 2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011) on port 29590
+Starting ChromeDriver 2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011) on port 17101
 Only local connections are allowed.
-May 27, 2018 2:17:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 31, 2018 8:38:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 DEBUG: names found only in All tab: [AMANDA GRADY, AMANDA VANDIVER, MARK WEILER, VATSAL BAJPAI, YEN HOANG]
 DEBUG: names found only in Other tabs: []
-Starting ChromeDriver 2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011) on port 9747
+Starting ChromeDriver 2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011) on port 49010
 Only local connections are allowed.
-May 27, 2018 2:18:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 31, 2018 8:38:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 DEBUG: 143 employee cards are found on 'All' departments tab
 DEBUG: 138 total employee cards are found on 'other' department tabs

@@ -23,23 +23,27 @@
       <![CDATA[DEBUG: 138 total employee cards are found on 'other' department tabs]]>
     </line>
   </reporter-output>
-  <suite name="Acceptance Suite" duration-ms="128708" started-at="2018-05-27T21:16:38Z" finished-at="2018-05-27T21:18:47Z">
+  <suite name="Acceptance Suite" duration-ms="117295" started-at="2018-06-01T03:36:53Z" finished-at="2018-06-01T03:38:50Z">
     <groups>
       <group name="team">
-        <method signature="TeamModuleTests.VerifyEmployeeDepartmentsListedCorrectlyBetweenAllTabAndDepartmentsTabs()[pri:0, instance:Tests.TeamModuleTests@49c386c8]" name="VerifyEmployeeDepartmentsListedCorrectlyBetweenAllTabAndDepartmentsTabs" class="Tests.TeamModuleTests"/>
-        <method signature="TeamModuleTests.VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnAllTab()[pri:0, instance:Tests.TeamModuleTests@49c386c8]" name="VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnAllTab" class="Tests.TeamModuleTests"/>
-        <method signature="TeamModuleTests.VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnDepartmentTabs()[pri:0, instance:Tests.TeamModuleTests@49c386c8]" name="VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnDepartmentTabs" class="Tests.TeamModuleTests"/>
-        <method signature="TeamModuleTests.verifyEmployeeNamesMatchBetweenAllAndOtherTabs()[pri:0, instance:Tests.TeamModuleTests@49c386c8]" name="verifyEmployeeNamesMatchBetweenAllAndOtherTabs" class="Tests.TeamModuleTests"/>
-        <method signature="TeamModuleTests.verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs()[pri:0, instance:Tests.TeamModuleTests@49c386c8]" name="verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs" class="Tests.TeamModuleTests"/>
+        <method signature="TeamModuleTests.VerifyEmployeeDepartmentsListedCorrectlyBetweenAllTabAndDepartmentsTabs()[pri:0, instance:Tests.TeamModuleTests@56528192]" name="VerifyEmployeeDepartmentsListedCorrectlyBetweenAllTabAndDepartmentsTabs" class="Tests.TeamModuleTests"/>
+        <method signature="TeamModuleTests.VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnAllTab()[pri:0, instance:Tests.TeamModuleTests@56528192]" name="VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnAllTab" class="Tests.TeamModuleTests"/>
+        <method signature="TeamModuleTests.VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnDepartmentTabs()[pri:0, instance:Tests.TeamModuleTests@56528192]" name="VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnDepartmentTabs" class="Tests.TeamModuleTests"/>
+        <method signature="TeamModuleTests.verifyEmployeeNamesMatchBetweenAllAndOtherTabs()[pri:0, instance:Tests.TeamModuleTests@56528192]" name="verifyEmployeeNamesMatchBetweenAllAndOtherTabs" class="Tests.TeamModuleTests"/>
+        <method signature="TeamModuleTests.verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs()[pri:0, instance:Tests.TeamModuleTests@56528192]" name="verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs" class="Tests.TeamModuleTests"/>
       </group> <!-- team -->
     </groups>
-    <test name="TeamModuleSuite" duration-ms="128708" started-at="2018-05-27T21:16:38Z" finished-at="2018-05-27T21:18:47Z">
+    <test name="TeamModuleSuite" duration-ms="117295" started-at="2018-06-01T03:36:53Z" finished-at="2018-06-01T03:38:50Z">
       <class name="Tests.TeamModuleTests">
-        <test-method status="PASS" signature="navigateToBranchViaGoogleSearchAndOpenTeamPage()[pri:0, instance:Tests.TeamModuleTests@49c386c8]" name="navigateToBranchViaGoogleSearchAndOpenTeamPage" is-config="true" duration-ms="22140" started-at="2018-05-27T14:16:38Z" finished-at="2018-05-27T14:17:00Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Tests.TeamModuleTests@56528192]" name="setUp" is-config="true" duration-ms="19" started-at="2018-05-31T20:36:53Z" finished-at="2018-05-31T20:36:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="navigateToBranchViaGoogleSearchAndOpenTeamPage()[pri:0, instance:Tests.TeamModuleTests@56528192]" name="navigateToBranchViaGoogleSearchAndOpenTeamPage" is-config="true" duration-ms="15965" started-at="2018-05-31T20:36:53Z" finished-at="2018-05-31T20:37:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToBranchViaGoogleSearchAndOpenTeamPage -->
-        <test-method status="FAIL" signature="VerifyEmployeeDepartmentsListedCorrectlyBetweenAllTabAndDepartmentsTabs()[pri:0, instance:Tests.TeamModuleTests@49c386c8]" name="VerifyEmployeeDepartmentsListedCorrectlyBetweenAllTabAndDepartmentsTabs" duration-ms="18072" started-at="2018-05-27T14:17:00Z" finished-at="2018-05-27T14:17:19Z">
+        <test-method status="FAIL" signature="VerifyEmployeeDepartmentsListedCorrectlyBetweenAllTabAndDepartmentsTabs()[pri:0, instance:Tests.TeamModuleTests@56528192]" name="VerifyEmployeeDepartmentsListedCorrectlyBetweenAllTabAndDepartmentsTabs" duration-ms="17417" started-at="2018-05-31T20:37:09Z" finished-at="2018-05-31T20:37:26Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -50,7 +54,7 @@
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertTrue(Assert.java:42)
 	at org.testng.Assert.assertTrue(Assert.java:52)
-	at Tests.TeamModuleTests.VerifyEmployeeDepartmentsListedCorrectlyBetweenAllTabAndDepartmentsTabs(TeamModuleTests.java:35)
+	at Tests.TeamModuleTests.VerifyEmployeeDepartmentsListedCorrectlyBetweenAllTabAndDepartmentsTabs(TeamModuleTests.java:33)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -90,15 +94,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- VerifyEmployeeDepartmentsListedCorrectlyBetweenAllTabAndDepartmentsTabs -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Tests.TeamModuleTests@49c386c8]" name="closeBrowser" is-config="true" duration-ms="252" started-at="2018-05-27T14:17:19Z" finished-at="2018-05-27T14:17:19Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Tests.TeamModuleTests@56528192]" name="closeBrowser" is-config="true" duration-ms="274" started-at="2018-05-31T20:37:26Z" finished-at="2018-05-31T20:37:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="navigateToBranchViaGoogleSearchAndOpenTeamPage()[pri:0, instance:Tests.TeamModuleTests@49c386c8]" name="navigateToBranchViaGoogleSearchAndOpenTeamPage" is-config="true" duration-ms="17351" started-at="2018-05-27T14:17:19Z" finished-at="2018-05-27T14:17:36Z">
+        <test-method status="PASS" signature="navigateToBranchViaGoogleSearchAndOpenTeamPage()[pri:0, instance:Tests.TeamModuleTests@56528192]" name="navigateToBranchViaGoogleSearchAndOpenTeamPage" is-config="true" duration-ms="14411" started-at="2018-05-31T20:37:26Z" finished-at="2018-05-31T20:37:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToBranchViaGoogleSearchAndOpenTeamPage -->
-        <test-method status="FAIL" signature="VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnAllTab()[pri:0, instance:Tests.TeamModuleTests@49c386c8]" name="VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnAllTab" duration-ms="4504" started-at="2018-05-27T14:17:36Z" finished-at="2018-05-27T14:17:41Z">
+        <test-method status="FAIL" signature="VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnAllTab()[pri:0, instance:Tests.TeamModuleTests@56528192]" name="VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnAllTab" duration-ms="4113" started-at="2018-05-31T20:37:41Z" finished-at="2018-05-31T20:37:45Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -109,7 +113,7 @@
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertTrue(Assert.java:42)
 	at org.testng.Assert.assertTrue(Assert.java:52)
-	at Tests.TeamModuleTests.VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnAllTab(TeamModuleTests.java:45)
+	at Tests.TeamModuleTests.VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnAllTab(TeamModuleTests.java:43)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -146,27 +150,27 @@
             </line>
           </reporter-output>
         </test-method> <!-- VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnAllTab -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Tests.TeamModuleTests@49c386c8]" name="closeBrowser" is-config="true" duration-ms="258" started-at="2018-05-27T14:17:41Z" finished-at="2018-05-27T14:17:41Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Tests.TeamModuleTests@56528192]" name="closeBrowser" is-config="true" duration-ms="303" started-at="2018-05-31T20:37:45Z" finished-at="2018-05-31T20:37:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="navigateToBranchViaGoogleSearchAndOpenTeamPage()[pri:0, instance:Tests.TeamModuleTests@49c386c8]" name="navigateToBranchViaGoogleSearchAndOpenTeamPage" is-config="true" duration-ms="16892" started-at="2018-05-27T14:17:41Z" finished-at="2018-05-27T14:17:58Z">
+        <test-method status="PASS" signature="navigateToBranchViaGoogleSearchAndOpenTeamPage()[pri:0, instance:Tests.TeamModuleTests@56528192]" name="navigateToBranchViaGoogleSearchAndOpenTeamPage" is-config="true" duration-ms="34195" started-at="2018-05-31T20:37:45Z" finished-at="2018-05-31T20:38:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToBranchViaGoogleSearchAndOpenTeamPage -->
-        <test-method status="PASS" signature="VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnDepartmentTabs()[pri:0, instance:Tests.TeamModuleTests@49c386c8]" name="VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnDepartmentTabs" duration-ms="63" started-at="2018-05-27T14:17:58Z" finished-at="2018-05-27T14:17:58Z">
+        <test-method status="PASS" signature="VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnDepartmentTabs()[pri:0, instance:Tests.TeamModuleTests@56528192]" name="VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnDepartmentTabs" duration-ms="87" started-at="2018-05-31T20:38:19Z" finished-at="2018-05-31T20:38:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnDepartmentTabs -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Tests.TeamModuleTests@49c386c8]" name="closeBrowser" is-config="true" duration-ms="385" started-at="2018-05-27T14:17:58Z" finished-at="2018-05-27T14:17:58Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Tests.TeamModuleTests@56528192]" name="closeBrowser" is-config="true" duration-ms="291" started-at="2018-05-31T20:38:19Z" finished-at="2018-05-31T20:38:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="navigateToBranchViaGoogleSearchAndOpenTeamPage()[pri:0, instance:Tests.TeamModuleTests@49c386c8]" name="navigateToBranchViaGoogleSearchAndOpenTeamPage" is-config="true" duration-ms="19661" started-at="2018-05-27T14:17:58Z" finished-at="2018-05-27T14:18:18Z">
+        <test-method status="PASS" signature="navigateToBranchViaGoogleSearchAndOpenTeamPage()[pri:0, instance:Tests.TeamModuleTests@56528192]" name="navigateToBranchViaGoogleSearchAndOpenTeamPage" is-config="true" duration-ms="12133" started-at="2018-05-31T20:38:20Z" finished-at="2018-05-31T20:38:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToBranchViaGoogleSearchAndOpenTeamPage -->
-        <test-method status="FAIL" signature="verifyEmployeeNamesMatchBetweenAllAndOtherTabs()[pri:0, instance:Tests.TeamModuleTests@49c386c8]" name="verifyEmployeeNamesMatchBetweenAllAndOtherTabs" duration-ms="7375" started-at="2018-05-27T14:18:18Z" finished-at="2018-05-27T14:18:25Z">
+        <test-method status="FAIL" signature="verifyEmployeeNamesMatchBetweenAllAndOtherTabs()[pri:0, instance:Tests.TeamModuleTests@56528192]" name="verifyEmployeeNamesMatchBetweenAllAndOtherTabs" duration-ms="5637" started-at="2018-05-31T20:38:32Z" finished-at="2018-05-31T20:38:37Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -177,7 +181,7 @@
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertTrue(Assert.java:42)
 	at org.testng.Assert.assertTrue(Assert.java:52)
-	at Tests.TeamModuleTests.verifyEmployeeNamesMatchBetweenAllAndOtherTabs(TeamModuleTests.java:26)
+	at Tests.TeamModuleTests.verifyEmployeeNamesMatchBetweenAllAndOtherTabs(TeamModuleTests.java:24)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -217,15 +221,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyEmployeeNamesMatchBetweenAllAndOtherTabs -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Tests.TeamModuleTests@49c386c8]" name="closeBrowser" is-config="true" duration-ms="339" started-at="2018-05-27T14:18:25Z" finished-at="2018-05-27T14:18:26Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Tests.TeamModuleTests@56528192]" name="closeBrowser" is-config="true" duration-ms="279" started-at="2018-05-31T20:38:37Z" finished-at="2018-05-31T20:38:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="navigateToBranchViaGoogleSearchAndOpenTeamPage()[pri:0, instance:Tests.TeamModuleTests@49c386c8]" name="navigateToBranchViaGoogleSearchAndOpenTeamPage" is-config="true" duration-ms="19671" started-at="2018-05-27T14:18:26Z" finished-at="2018-05-27T14:18:45Z">
+        <test-method status="PASS" signature="navigateToBranchViaGoogleSearchAndOpenTeamPage()[pri:0, instance:Tests.TeamModuleTests@56528192]" name="navigateToBranchViaGoogleSearchAndOpenTeamPage" is-config="true" duration-ms="10701" started-at="2018-05-31T20:38:38Z" finished-at="2018-05-31T20:38:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToBranchViaGoogleSearchAndOpenTeamPage -->
-        <test-method status="FAIL" signature="verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs()[pri:0, instance:Tests.TeamModuleTests@49c386c8]" name="verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs" duration-ms="1413" started-at="2018-05-27T14:18:45Z" finished-at="2018-05-27T14:18:47Z">
+        <test-method status="FAIL" signature="verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs()[pri:0, instance:Tests.TeamModuleTests@56528192]" name="verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs" duration-ms="1164" started-at="2018-05-31T20:38:48Z" finished-at="2018-05-31T20:38:50Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [138] but found [143]]]>
@@ -237,7 +241,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:123)
 	at org.testng.Assert.assertEquals(Assert.java:370)
 	at org.testng.Assert.assertEquals(Assert.java:380)
-	at Tests.TeamModuleTests.verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs(TeamModuleTests.java:20)
+	at Tests.TeamModuleTests.verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs(TeamModuleTests.java:18)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -277,7 +281,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Tests.TeamModuleTests@49c386c8]" name="closeBrowser" is-config="true" duration-ms="296" started-at="2018-05-27T14:18:47Z" finished-at="2018-05-27T14:18:47Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Tests.TeamModuleTests@56528192]" name="closeBrowser" is-config="true" duration-ms="288" started-at="2018-05-31T20:38:50Z" finished-at="2018-05-31T20:38:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
