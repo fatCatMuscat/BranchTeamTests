@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="118.827" tests="5" errors="0" skipped="0" failures="4">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="103.188" tests="5" errors="0" skipped="0" failures="4">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib"/>
@@ -23,6 +23,7 @@
     <property name="os.arch" value="x86_64"/>
     <property name="java.io.tmpdir" value="/var/folders/zm/rs7p6px975g6wjpnl3qws7b00000gn/T/"/>
     <property name="line.separator" value="&#10;"/>
+    <property name="surefire.suitexmlfiles" value="teamModuleTests.xml"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
     <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.3.9/libexec/bin/m2.conf"/>
@@ -33,7 +34,6 @@
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.13.1"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="surefire.suiteXmlFiles" value="teamModuleTests.xml"/>
     <property name="user.home" value="/Users/arsenal"/>
     <property name="user.timezone" value="America/Los_Angeles"/>
     <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
@@ -44,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dsurefire.suiteXmlFiles=teamModuleTests.xml"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dsurefire.suitexmlfiles=teamModuleTests.xml"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -62,55 +62,55 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="VerifyEmployeeDepartmentsListedCorrectlyBetweenAllTabAndDepartmentsTabs" classname="Tests.TeamModuleTests" time="17.431">
+  <testcase name="VerifyEmployeeDepartmentsListedCorrectlyBetweenAllTabAndDepartmentsTabs" classname="Tests.TeamModuleTests" time="22.68">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
 	at Tests.TeamModuleTests.VerifyEmployeeDepartmentsListedCorrectlyBetweenAllTabAndDepartmentsTabs(TeamModuleTests.java:33)
 </failure>
     <system-out><![CDATA[DEBUG: number of employees don't match between all tab and other tabs
 DEBUG: names of employees who's department value don't match between 'All' and other tabs: [YEN HOANG, VATSAL BAJPAI, AMANDA GRADY, AMANDA VANDIVER, MARK WEILER]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011) on port 30070
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011) on port 27990
 Only local connections are allowed.
-May 31, 2018 8:36:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 01, 2018 8:24:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnAllTab" classname="Tests.TeamModuleTests" time="4.112">
+  <testcase name="VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnAllTab" classname="Tests.TeamModuleTests" time="4.743">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
 	at Tests.TeamModuleTests.VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnAllTab(TeamModuleTests.java:43)
 </failure>
     <system-out><![CDATA[DEBUG: Names of employees with non matching images or inconsistently named imageFiles: [DMITRI GASKIN, ANGELICA MARTINEZ, ANN MASSOUD, ANUP OSTWAL, CATHLEEN HARTGE, EMRE AKSOY, EVAN KAPLAN, EVGENIY (GENE) HAYDAMAKHA, GAUTIER DESSE, JYOTSNA JAYARAMAN, MARC RITTER, MARK WEILER, MAURO SINCHE, MEGAN BEATY, MICHELLE LERNER, MINESH KHER, NIDHI MIGLANI, NEIL MA, PATRICK VAN DER STEEN, SHELBY SIMS, THIBAUT SOUYRIS, VIVIANA DE LA TORRE]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011) on port 38019
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011) on port 32268
 Only local connections are allowed.
-May 31, 2018 8:37:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 01, 2018 8:25:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnDepartmentTabs" classname="Tests.TeamModuleTests" time="0.088"/>
-  <testcase name="verifyEmployeeNamesMatchBetweenAllAndOtherTabs" classname="Tests.TeamModuleTests" time="5.637">
+  <testcase name="VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnDepartmentTabs" classname="Tests.TeamModuleTests" time="0.307"/>
+  <testcase name="verifyEmployeeNamesMatchBetweenAllAndOtherTabs" classname="Tests.TeamModuleTests" time="6.804">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
 	at Tests.TeamModuleTests.verifyEmployeeNamesMatchBetweenAllAndOtherTabs(TeamModuleTests.java:24)
 </failure>
     <system-out><![CDATA[DEBUG: names found only in All tab: [AMANDA GRADY, AMANDA VANDIVER, MARK WEILER, VATSAL BAJPAI, YEN HOANG]
 DEBUG: names found only in Other tabs: []
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011) on port 17101
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011) on port 12496
 Only local connections are allowed.
-May 31, 2018 8:38:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 01, 2018 8:25:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs" classname="Tests.TeamModuleTests" time="1.165">
+  <testcase name="verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs" classname="Tests.TeamModuleTests" time="1.715">
     <failure message="expected [138] but found [143]" type="java.lang.AssertionError">java.lang.AssertionError: expected [138] but found [143]
 	at Tests.TeamModuleTests.verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs(TeamModuleTests.java:18)
 </failure>
     <system-out><![CDATA[DEBUG: 143 employee cards are found on 'All' departments tab
 DEBUG: 138 total employee cards are found on 'other' department tabs
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011) on port 49010
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011) on port 33506
 Only local connections are allowed.
-May 31, 2018 8:38:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 01, 2018 8:26:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>

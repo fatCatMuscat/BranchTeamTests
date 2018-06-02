@@ -43,22 +43,6 @@ public class TeamModuleTests extends BaseTest {
         Assert.assertTrue(teamPage.displayedDepartmentEmployeeImageMatch(names, images));
     }
 
-    @Test (groups = "team")
-    public void VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnDepartmentTabs() {
-
-        TeamPage teamPage = new TeamPage();
-
-    }
-
-    @Test
-    public void loggerTest() {
-        logger.debug("Vlad is testing his log4J logger");
-        logger.error("error test!!!");
-        logger.trace("trace test!!?");
-        logger.info("info test !!!>!>!>!");
-        logger.error("error test");
-
-    }
 
 
 

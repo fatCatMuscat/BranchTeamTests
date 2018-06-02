@@ -26,7 +26,7 @@ public class TeamPage extends BaseTest {
 
     public int countEmployeeCardsFromAllTab() {
         int allEmployeesQty = countEmployeeCardsDisplayed();
-        Reporter.log("DEBUG: " + allEmployeesQty +
+        Reporter.log("FAILURE: " + allEmployeesQty +
                 " employee cards are found on 'All' departments tab", true);
         return allEmployeesQty;
     }
@@ -48,7 +48,7 @@ public class TeamPage extends BaseTest {
             teamDepartments.get(i).click();
             sum += countEmployeeCardsDisplayed();
         }
-        Reporter.log("DEBUG: " + sum +
+        Reporter.log("FAILURE: " + sum +
                 " total employee cards are found on 'other' department tabs", true);
         return sum;
     }
@@ -81,7 +81,7 @@ public class TeamPage extends BaseTest {
             teamDepartments.get(i).click();
             employeeNames.addAll(getTexts(teamPageFactory.displayedEmployeeNames));
         }
-        if (employeeNames.isEmpty()) Reporter.log("DEBUG: no employee name elements found", true);
+        if (employeeNames.isEmpty()) Reporter.log("FAILURE: no employee name elements found", true);
         return employeeNames;
     }
 
@@ -100,9 +100,9 @@ public class TeamPage extends BaseTest {
         namesFromAllTab.removeAll(temp);
 
         if (!namesFromAllTab.isEmpty() || !namesFromDepartments.isEmpty()) {
-            Reporter.log("DEBUG: names found only in All tab: " +
+            Reporter.log("FAILURE: names found only in All tab: " +
                     Arrays.toString(namesFromAllTab.toArray()), true);
-            Reporter.log("DEBUG: names found only in Other tabs: " +
+            Reporter.log("FAILURE: names found only in Other tabs: " +
                     Arrays.toString(namesFromDepartments.toArray()),true);
             return false;
         }
@@ -116,7 +116,7 @@ public class TeamPage extends BaseTest {
         List<String> employeeDepartmentsFromCurrentDptTab = getTexts(teamPageFactory.displayedEmployeeDepartment);
 
         if (employeeDepartmentsFromCurrentDptTab.isEmpty())
-            Reporter.log("DEBUG: no employee department elements found", true);
+            Reporter.log("FAILURE: no employee department elements found", true);
         return employeeDepartmentsFromCurrentDptTab;
     }
 
@@ -158,7 +158,7 @@ public class TeamPage extends BaseTest {
     public boolean employeeDepartmentsMatchBetweenAllAndDepartmentsTabs
             (Map<String, String> employeesInAllTab, Map<String, String> employeesInDptTab) {
         if(employeesInAllTab.size() != employeesInDptTab.size())
-            Reporter.log("DEBUG: number of employees don't match between all tab and other tabs", true);
+            Reporter.log("FAILURE: number of employees don't match between all tab and other tabs", true);
         List<String> nonMatchingDptEmployees = new ArrayList<String>();
         for (String name: employeesInAllTab.keySet()) {
             if (!employeesInAllTab.get(name).equalsIgnoreCase(employeesInDptTab.get(name))) {
@@ -166,7 +166,7 @@ public class TeamPage extends BaseTest {
             }
         }
         if (nonMatchingDptEmployees.size() > 0) {
-            Reporter.log("DEBUG: names of employees who's department value don't match" +
+            Reporter.log("FAILURE: names of employees who's department value don't match" +
                     " between 'All' and other tabs: " +
                     Arrays.toString(nonMatchingDptEmployees.toArray()), true);
             return false;
@@ -197,7 +197,7 @@ public class TeamPage extends BaseTest {
             }
         }
         if (nonMatchingRecords.size() > 0) {
-            Reporter.log("DEBUG: Names of employees with non matching images" +
+            Reporter.log("FAILURE: Names of employees with non matching images" +
                     " or inconsistently named imageFiles: " +
                     Arrays.toString(nonMatchingRecords.toArray()), true);
             return false;
