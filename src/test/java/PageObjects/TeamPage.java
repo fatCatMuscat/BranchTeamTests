@@ -54,7 +54,7 @@ public class TeamPage extends BaseTest {
     }
 
     //convert a list of WebElements into a List of Strings copied from element's text
-    public List<String> getListOfStrings(List<WebElement> webElementList) {
+    public List<String> getTexts(List<WebElement> webElementList) {
         if (webElementList.isEmpty()) {
             logger.error("Error: no elements in the input list. Can not be converted to List<String>");
             return null;
@@ -68,18 +68,18 @@ public class TeamPage extends BaseTest {
 
     // store employee names in a List of Strings from 'All' tab
     public List<String> getNamesFromAllTab() {
-        List<String> namesFromAllCategory = new ArrayList<String>(getListOfStrings(teamPageFactory.displayedEmployeeNames));
+        List<String> namesFromAllCategory = new ArrayList<>(getTexts(teamPageFactory.displayedEmployeeNames));
         if (namesFromAllCategory.isEmpty()) logger.error("DEBUG: no employee names elements found");
         return namesFromAllCategory;
     }
 
     // parse employee names and store them in a List
     public List<String> getNamesFromDepartments() {
-        List<String> employeeNames = new ArrayList<String>();
+        List<String> employeeNames = new ArrayList<>();
         List<WebElement> teamDepartments = teamPageFactory.teamDepartments;
         for (int i = 1; i < countDepartmentTabs(); i++) {
             teamDepartments.get(i).click();
-            employeeNames.addAll(getListOfStrings(teamPageFactory.displayedEmployeeNames));
+            employeeNames.addAll(getTexts(teamPageFactory.displayedEmployeeNames));
         }
         if (employeeNames.isEmpty()) Reporter.log("DEBUG: no employee name elements found", true);
         return employeeNames;
@@ -90,6 +90,10 @@ public class TeamPage extends BaseTest {
 
         List<String> namesFromAllTab = getNamesFromAllTab();
         List<String> namesFromDepartments = getNamesFromDepartments();
+
+        if (namesFromAllTab.isEmpty() || namesFromDepartments.isEmpty())
+            logger.error("ERROR can't collect names of employees from either All or Department tabs");
+
         List<String> temp = new ArrayList<>(namesFromDepartments);
 
         namesFromDepartments.removeAll(namesFromAllTab);
@@ -108,9 +112,8 @@ public class TeamPage extends BaseTest {
 
 
     public List<String> getEmployeeDepartmentsFromDisplayedDptTab() {
-        List<String> employeeDepartmentsFromCurrentDptTab = new ArrayList<String>();
 
-        employeeDepartmentsFromCurrentDptTab = getListOfStrings(teamPageFactory.displayedEmployeeDepartment);
+        List<String> employeeDepartmentsFromCurrentDptTab = getTexts(teamPageFactory.displayedEmployeeDepartment);
 
         if (employeeDepartmentsFromCurrentDptTab.isEmpty())
             Reporter.log("DEBUG: no employee department elements found", true);
@@ -128,7 +131,7 @@ public class TeamPage extends BaseTest {
 
     // return a Map, Key = Employee's name, Value = Employee's dept
     public Map<String, String> getNamesAndDepartmentsOfEmployees() {
-        HashMap<String, String> nameDpt = new HashMap<String, String>();
+        HashMap<String, String> nameDpt = new HashMap<>();
         List<String> names = getNamesFromAllTab();
         List<String> dpts = getEmployeeDepartmentsFromDisplayedDptTab();
 
@@ -143,7 +146,7 @@ public class TeamPage extends BaseTest {
 
         List<WebElement> teamCats = teamPageFactory.teamDepartments;
         int qtyCategories = teamCats.size();
-        Map<String, String> otherEmployeesNamesDpts = new HashMap<String, String>();
+        Map<String, String> otherEmployeesNamesDpts = new HashMap<>();
 
         for (int i = 1; i < qtyCategories; i++) {
             teamCats.get(i).click();
