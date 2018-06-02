@@ -56,7 +56,7 @@ public class TeamPage extends BaseTest {
     //convert a list of WebElements into a List of Strings copied from element's text
     public List<String> getListOfStrings(List<WebElement> webElementList) {
         if (webElementList.isEmpty()) {
-            Reporter.log("Error: no elements in the input list. Can not be converted to List<String>", true);
+            logger.error("Error: no elements in the input list. Can not be converted to List<String>");
             return null;
         }
         ArrayList<String> stringArrayList = new ArrayList<String>();
@@ -69,20 +69,20 @@ public class TeamPage extends BaseTest {
     // store employee names in a List of Strings from 'All' tab
     public List<String> getNamesFromAllTab() {
         List<String> namesFromAllCategory = new ArrayList<String>(getListOfStrings(teamPageFactory.displayedEmployeeNames));
-        if (namesFromAllCategory.isEmpty()) Reporter.log("DEBUG: no employee names elements found", true);
+        if (namesFromAllCategory.isEmpty()) logger.error("DEBUG: no employee names elements found");
         return namesFromAllCategory;
     }
 
     // parse employee names and store them in a List
     public List<String> getNamesFromDepartments() {
-        List<String> namesFromDepartments = new ArrayList<String>();
-        List<WebElement> currentDepartment = teamPageFactory.teamDepartments;
+        List<String> employeeNames = new ArrayList<String>();
+        List<WebElement> teamDepartments = teamPageFactory.teamDepartments;
         for (int i = 1; i < countDepartmentTabs(); i++) {
-            currentDepartment.get(i).click();
-            namesFromDepartments.addAll(getListOfStrings(teamPageFactory.displayedEmployeeNames));
+            teamDepartments.get(i).click();
+            employeeNames.addAll(getListOfStrings(teamPageFactory.displayedEmployeeNames));
         }
-        if (namesFromDepartments.isEmpty()) Reporter.log("DEBUG: no employee name elements found", true);
-        return namesFromDepartments;
+        if (employeeNames.isEmpty()) Reporter.log("DEBUG: no employee name elements found", true);
+        return employeeNames;
     }
 
     // verify that employee names match between All tab and other tabs and print non-matching names
@@ -90,8 +90,7 @@ public class TeamPage extends BaseTest {
 
         List<String> namesFromAllTab = getNamesFromAllTab();
         List<String> namesFromDepartments = getNamesFromDepartments();
-        List<String> temp = new ArrayList<String>();
-        temp.addAll(namesFromDepartments);
+        List<String> temp = new ArrayList<>(namesFromDepartments);
 
         namesFromDepartments.removeAll(namesFromAllTab);
         namesFromAllTab.removeAll(temp);

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c2873ce-5539-4b23-8fc0-2e6e7b07bec7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/TeamPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/TeamPage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TeamModuleTests.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TeamModuleTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Tests/TeamModuleTests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="483">
-              <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+              <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,14 +41,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TeamPage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TeamPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/TeamPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-267">
-              <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+            <state relative-caret-position="170">
+              <caret line="88" column="19" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
               <folding>
-                <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#591#592#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#3743#3751#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -157,10 +157,10 @@
         <option value="$PROJECT_DIR$/src/main/java/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Tests/TeamModuleTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PageObjects/TeamPage.java" />
         <option value="$PROJECT_DIR$/src/test/base.properties" />
         <option value="$PROJECT_DIR$/src/test/java/Utils/BaseTest.java" />
         <option value="$PROJECT_DIR$/teamModuleTests.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/TeamPage.java" />
       </list>
     </option>
   </component>
@@ -172,7 +172,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="24" />
+    <option name="x" value="43" />
     <option name="y" value="22" />
     <option name="width" value="1348" />
     <option name="height" value="848" />
@@ -289,7 +289,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TeamModuleTests.verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs">
+  <component name="RunManager" selected="TestNG.TeamModuleTests">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -488,10 +488,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TeamModuleTests" />
         <item itemvalue="TestNG.TeamModuleTests.verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs" />
         <item itemvalue="TestNG.TeamModuleTests.loggerTest" />
         <item itemvalue="TestNG.TeamModuleTests.VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnAllTab" />
-        <item itemvalue="TestNG.TeamModuleTests" />
         <item itemvalue="TestNG.TeamModuleTests.VerifyEmployeeDepartmentsListedCorrectlyBetweenAllTabAndDepartmentsTabs" />
       </list>
     </recent_temporary>
@@ -542,7 +542,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="24" y="22" width="1348" height="848" extended-state="0" />
+    <frame x="43" y="22" width="1348" height="848" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
@@ -555,10 +555,10 @@
       <window_info anchor="right" id="Maven Projects" order="2" />
       <window_info anchor="right" x="339" y="195" width="717" height="501" id="Run" order="7" type="FLOATING" weight="0.7503576" />
       <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="3" visible="true" weight="0.25565913" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.25565913" />
       <window_info id="Capture Tool" order="1" />
       <window_info anchor="right" id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" x="26" y="116" width="349" height="362" id="Project" order="4" sideWeight="0.47925034" visible="true" weight="0.22052068" />
+      <window_info content_ui="combo" x="26" y="116" width="349" height="362" id="Project" order="4" sideWeight="0.47925034" visible="true" weight="0.22052068" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -893,23 +893,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/TeamModuleTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/TeamPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        <state relative-caret-position="170">
+          <caret line="88" column="19" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3743#3751#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/TeamPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/TeamModuleTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-267">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        <state relative-caret-position="483">
+          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
           <folding>
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
