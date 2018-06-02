@@ -1,20 +1,20 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 70.762 sec <<< FAILURE! - in TestSuite
-VerifyEmployeeDepartmentsListedCorrectlyBetweenAllAndOtherTabs(Tests.TeamModuleTests)  Time elapsed: 15.606 sec  <<< FAILURE!
+Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 103.188 sec <<< FAILURE! - in TestSuite
+VerifyEmployeeDepartmentsListedCorrectlyBetweenAllTabAndDepartmentsTabs(Tests.TeamModuleTests)  Time elapsed: 22.68 sec  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
-	at Tests.TeamModuleTests.VerifyEmployeeDepartmentsListedCorrectlyBetweenAllAndOtherTabs(TeamModuleTests.java:61)
+	at Tests.TeamModuleTests.VerifyEmployeeDepartmentsListedCorrectlyBetweenAllTabAndDepartmentsTabs(TeamModuleTests.java:33)
 
-VerifyEmployeeNamesMatchEmployeePortraitsFileNames(Tests.TeamModuleTests)  Time elapsed: 3.914 sec  <<< FAILURE!
+VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnAllTab(Tests.TeamModuleTests)  Time elapsed: 4.743 sec  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
-	at Tests.TeamModuleTests.VerifyEmployeeNamesMatchEmployeePortraitsFileNames(TeamModuleTests.java:71)
+	at Tests.TeamModuleTests.VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnAllTab(TeamModuleTests.java:43)
 
-verifyEmployeeNamesMatchBetweenAllAndOtherTabs(Tests.TeamModuleTests)  Time elapsed: 5.385 sec  <<< FAILURE!
+verifyEmployeeNamesMatchBetweenAllAndOtherTabs(Tests.TeamModuleTests)  Time elapsed: 6.804 sec  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
-	at Tests.TeamModuleTests.verifyEmployeeNamesMatchBetweenAllAndOtherTabs(TeamModuleTests.java:52)
+	at Tests.TeamModuleTests.verifyEmployeeNamesMatchBetweenAllAndOtherTabs(TeamModuleTests.java:24)
 
-verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs(Tests.TeamModuleTests)  Time elapsed: 1.262 sec  <<< FAILURE!
-java.lang.AssertionError: expected [125] but found [129]
-	at Tests.TeamModuleTests.verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs(TeamModuleTests.java:46)
+verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs(Tests.TeamModuleTests)  Time elapsed: 1.715 sec  <<< FAILURE!
+java.lang.AssertionError: expected [138] but found [143]
+	at Tests.TeamModuleTests.verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs(TeamModuleTests.java:18)
 

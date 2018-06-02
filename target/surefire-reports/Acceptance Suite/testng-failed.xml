@@ -11,11 +11,12 @@
       <class name="Tests.TeamModuleTests">
         <methods>
           <include name="closeBrowser"/>
+          <include name="VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnAllTab"/>
+          <include name="navigateToBranchViaGoogleSearchAndOpenTeamPage"/>
+          <include name="VerifyEmployeeDepartmentsListedCorrectlyBetweenAllTabAndDepartmentsTabs"/>
+          <include name="setUp"/>
           <include name="verifyEmployeeNamesMatchBetweenAllAndOtherTabs"/>
           <include name="verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs"/>
-          <include name="VerifyEmployeeDepartmentsListedCorrectlyBetweenAllAndOtherTabs"/>
-          <include name="VerifyEmployeeNamesMatchEmployeePortraitsFileNames"/>
-          <include name="navigateToBranchViaGoogleSearchAndOpenTeamPage"/>
         </methods>
       </class> <!-- Tests.TeamModuleTests -->
     </classes>

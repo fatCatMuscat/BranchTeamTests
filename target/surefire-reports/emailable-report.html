@@ -31,63 +31,20 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">TeamModuleSuite</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">4</td><td class="numi">70.1 seconds</td><td class="numi">team </td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TeamModuleSuite</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi_attn">4</td><td class="numi">101.7 seconds</td><td class="numi">team </td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
 <tr><th colspan="4">TeamModuleSuite &#8212; failed</th></tr>
-<tr class="failedodd"><td rowspan="4">Tests.TeamModuleTests</td><td><a href="#m1"><b>VerifyEmployeeDepartmentsListedCorrectlyBetweenAllAndOtherTabs</b> (team) </a></td><td class="numi">1</td><td>1526685923542</td><td class="numi">15586</td></tr><tr class="failedodd"><td><a href="#m2"><b>VerifyEmployeeNamesMatchEmployeePortraitsFileNames</b> (team) </a></td><td class="numi">1</td><td>1526685949363</td><td class="numi">3909</td></tr><tr class="failedodd"><td><a href="#m3"><b>verifyEmployeeNamesMatchBetweenAllAndOtherTabs</b> (team) </a></td><td class="numi">1</td><td>1526685963401</td><td class="numi">5385</td></tr><tr class="failedodd"><td><a href="#m4"><b>verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs</b> (team) </a></td><td class="numi">1</td><td>1526685978596</td><td class="numi">1263</td></tr>
+<tr class="failedodd"><td rowspan="4">Tests.TeamModuleTests</td><td><a href="#m1"><b>VerifyEmployeeDepartmentsListedCorrectlyBetweenAllTabAndDepartmentsTabs</b> (team) </a></td><td class="numi">1</td><td>1527909895757</td><td class="numi">22660</td></tr><tr class="failedodd"><td><a href="#m2"><b>VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnAllTab</b> (team) </a></td><td class="numi">1</td><td>1527909928942</td><td class="numi">4740</td></tr><tr class="failedodd"><td><a href="#m3"><b>verifyEmployeeNamesMatchBetweenAllAndOtherTabs</b> (team) </a></td><td class="numi">1</td><td>1527909960924</td><td class="numi">6797</td></tr><tr class="failedodd"><td><a href="#m4"><b>verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs</b> (team) </a></td><td class="numi">1</td><td>1527909980216</td><td class="numi">1714</td></tr>
+<tr><th colspan="4">TeamModuleSuite &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Tests.TeamModuleTests</td><td><a href="#m5"><b>VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnDepartmentTabs</b> (team) </a></td><td class="numi">1</td><td>1527909944860</td><td class="numi">306</td></tr>
 </table>
 <h1>TeamModuleSuite</h1>
-<h2 id="m1">Tests.TeamModuleTests:VerifyEmployeeDepartmentsListedCorrectlyBetweenAllAndOtherTabs</h2>
+<h2 id="m1">Tests.TeamModuleTests:verifyEmployeeNamesMatchBetweenAllAndOtherTabs</h2>
 <div style="padding-left:3em">
 <h3>Test Messages</h3>
-DEBUG: number of employees don't match between all tab and other tabs<br/>
-DEBUG: names of employees who's department value don't match between 'All' and other tabs: [YEN HOANG, VATSAL BAJPAI, AMANDA GRADY, AMANDA VANDIVER]<br/>
-<h3>Failure</h3>
-<p>expected [true] but found [false]</p>
-org.testng.Assert.fail(Assert.java:94)
-<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
-<br/>at org.testng.Assert.assertTrue(Assert.java:42)
-<br/>at org.testng.Assert.assertTrue(Assert.java:52)
-<br/>at Tests.TeamModuleTests.VerifyEmployeeDepartmentsListedCorrectlyBetweenAllAndOtherTabs(TeamModuleTests.java:61)
-<br/>28 lines not shown
-</div>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">Tests.TeamModuleTests:verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs</h2>
-<div style="padding-left:3em">
-<h3>Test Messages</h3>
-DEBUG: 129 employee cards are found on 'All' departments tab<br/>
-DEBUG: 125 total employee cards are found on 'other' department tabs<br/>
-<h3>Failure</h3>
-<p>expected [125] but found [129]</p>
-org.testng.Assert.fail(Assert.java:94)
-<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
-<br/>at org.testng.Assert.assertEquals(Assert.java:123)
-<br/>at org.testng.Assert.assertEquals(Assert.java:370)
-<br/>at org.testng.Assert.assertEquals(Assert.java:380)
-<br/>at Tests.TeamModuleTests.verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs(TeamModuleTests.java:46)
-<br/>28 lines not shown
-</div>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m3">Tests.TeamModuleTests:VerifyEmployeeNamesMatchEmployeePortraitsFileNames</h2>
-<div style="padding-left:3em">
-<h3>Test Messages</h3>
-DEBUG: Names of employees with non matching images or inconsistently named imageFiles: [DMITRI GASKIN, EVGENIY (GENE) HAYDAMAKHA, VIVIANA DE LA TORRE]<br/>
-<h3>Failure</h3>
-<p>expected [true] but found [false]</p>
-org.testng.Assert.fail(Assert.java:94)
-<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
-<br/>at org.testng.Assert.assertTrue(Assert.java:42)
-<br/>at org.testng.Assert.assertTrue(Assert.java:52)
-<br/>at Tests.TeamModuleTests.VerifyEmployeeNamesMatchEmployeePortraitsFileNames(TeamModuleTests.java:71)
-<br/>28 lines not shown
-</div>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m4">Tests.TeamModuleTests:verifyEmployeeNamesMatchBetweenAllAndOtherTabs</h2>
-<div style="padding-left:3em">
-<h3>Test Messages</h3>
-DEBUG: names found only in All tab: [AMANDA GRADY, AMANDA VANDIVER, VATSAL BAJPAI, YEN HOANG]<br/>
+DEBUG: names found only in All tab: [AMANDA GRADY, AMANDA VANDIVER, MARK WEILER, VATSAL BAJPAI, YEN HOANG]<br/>
 DEBUG: names found only in Other tabs: []<br/>
 <h3>Failure</h3>
 <p>expected [true] but found [false]</p>
@@ -95,8 +52,55 @@ org.testng.Assert.fail(Assert.java:94)
 <br/>at org.testng.Assert.failNotEquals(Assert.java:494)
 <br/>at org.testng.Assert.assertTrue(Assert.java:42)
 <br/>at org.testng.Assert.assertTrue(Assert.java:52)
-<br/>at Tests.TeamModuleTests.verifyEmployeeNamesMatchBetweenAllAndOtherTabs(TeamModuleTests.java:52)
+<br/>at Tests.TeamModuleTests.verifyEmployeeNamesMatchBetweenAllAndOtherTabs(TeamModuleTests.java:24)
 <br/>28 lines not shown
 </div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">Tests.TeamModuleTests:verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs</h2>
+<div style="padding-left:3em">
+<h3>Test Messages</h3>
+DEBUG: 143 employee cards are found on 'All' departments tab<br/>
+DEBUG: 138 total employee cards are found on 'other' department tabs<br/>
+<h3>Failure</h3>
+<p>expected [138] but found [143]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:370)
+<br/>at org.testng.Assert.assertEquals(Assert.java:380)
+<br/>at Tests.TeamModuleTests.verifyQuantityOfEmployeesFromAllTabEqualsSumOfEmployeesFromOtherTabs(TeamModuleTests.java:18)
+<br/>28 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">Tests.TeamModuleTests:VerifyEmployeeDepartmentsListedCorrectlyBetweenAllTabAndDepartmentsTabs</h2>
+<div style="padding-left:3em">
+<h3>Test Messages</h3>
+DEBUG: number of employees don't match between all tab and other tabs<br/>
+DEBUG: names of employees who's department value don't match between 'All' and other tabs: [YEN HOANG, VATSAL BAJPAI, AMANDA GRADY, AMANDA VANDIVER, MARK WEILER]<br/>
+<h3>Failure</h3>
+<p>expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at org.testng.Assert.assertTrue(Assert.java:52)
+<br/>at Tests.TeamModuleTests.VerifyEmployeeDepartmentsListedCorrectlyBetweenAllTabAndDepartmentsTabs(TeamModuleTests.java:33)
+<br/>28 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">Tests.TeamModuleTests:VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnAllTab</h2>
+<div style="padding-left:3em">
+<h3>Test Messages</h3>
+DEBUG: Names of employees with non matching images or inconsistently named imageFiles: [DMITRI GASKIN, ANGELICA MARTINEZ, ANN MASSOUD, ANUP OSTWAL, CATHLEEN HARTGE, EMRE AKSOY, EVAN KAPLAN, EVGENIY (GENE) HAYDAMAKHA, GAUTIER DESSE, JYOTSNA JAYARAMAN, MARC RITTER, MARK WEILER, MAURO SINCHE, MEGAN BEATY, MICHELLE LERNER, MINESH KHER, NIDHI MIGLANI, NEIL MA, PATRICK VAN DER STEEN, SHELBY SIMS, THIBAUT SOUYRIS, VIVIANA DE LA TORRE]<br/>
+<h3>Failure</h3>
+<p>expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at org.testng.Assert.assertTrue(Assert.java:52)
+<br/>at Tests.TeamModuleTests.VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnAllTab(TeamModuleTests.java:43)
+<br/>28 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">Tests.TeamModuleTests:VerifyEmployeeNamesCorrespondPortraitImageFileNamesOnDepartmentTabs</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>
