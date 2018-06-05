@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9c2873ce-5539-4b23-8fc0-2e6e7b07bec7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TeamModuleTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TeamModuleTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/TeamPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PageObjects/TeamPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/TeamModuleTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/TeamModuleTests.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,8 +23,8 @@
       <file leaf-file-name="TeamModuleTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Tests/TeamModuleTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="1008">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,8 +47,8 @@
       <file leaf-file-name="TeamPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/TeamPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2209">
-              <caret line="99" column="40" lean-forward="true" selection-start-line="99" selection-start-column="40" selection-end-line="99" selection-end-column="40" />
+            <state relative-caret-position="1064">
+              <caret line="73" column="5" lean-forward="true" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
               <folding>
                 <element signature="e#2286#2294#0" expanded="true" />
                 <element signature="e#6628#6636#0" expanded="true" />
@@ -98,12 +95,10 @@
       <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Utils/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
+            <state relative-caret-position="714">
               <caret line="52" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1340#1341#0" expanded="true" />
-                <element signature="e#1369#1370#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -189,8 +184,8 @@
         <option value="$PROJECT_DIR$/src/test/base.properties" />
         <option value="$PROJECT_DIR$/src/test/java/Utils/BaseTest.java" />
         <option value="$PROJECT_DIR$/teamModuleTests.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/PageObjects/TeamPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tests/TeamModuleTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/TeamPage.java" />
       </list>
     </option>
   </component>
@@ -212,7 +207,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -270,23 +266,11 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Utils" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="BranchTeamTests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BranchTeamTests" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BranchTeamTests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BranchTeamTests" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="surefire-reports" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -570,55 +554,36 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="22" width="1401" height="848" extended-state="0" />
+    <frame x="3" y="22" width="1401" height="848" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.252996" />
       <window_info id="Palette&#9;" order="0" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="right" x="191" y="64" width="1025" height="769" id="Run" order="7" type="FLOATING" weight="0.7503576" />
-      <window_info anchor="bottom" id="Terminal" order="3" visible="true" weight="0.32756326" />
-      <window_info id="Capture Tool" order="1" />
-      <window_info anchor="right" id="Designer" order="3" />
-      <window_info content_ui="combo" x="26" y="116" width="349" height="362" id="Project" order="4" sideWeight="0.47925034" visible="true" weight="0.28771156" />
-      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info id="Favorites" order="3" sideWeight="0.5207497" side_tool="true" weight="0.24964234" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.5471264" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Designer" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32954547" />
       <window_info anchor="right" x="339" y="195" width="717" height="501" id="Run" order="7" type="FLOATING" weight="0.7503576" />
-      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info content_ui="combo" x="26" y="116" width="349" height="362" id="Project" order="4" sideWeight="0.47925034" visible="true" weight="0.22052068" />
-      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" visible="true" weight="0.25565913" />
       <window_info id="Capture Tool" order="1" />
+      <window_info anchor="right" id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" x="26" y="116" width="349" height="362" id="Project" order="4" sideWeight="0.47925034" visible="true" weight="0.22369389" />
+      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.54630595" />
-      <window_info id="Palette&#9;" order="0" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.25565913" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.5207497" side_tool="true" weight="0.24964234" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.252996" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -883,12 +848,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Utils/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
+        <state relative-caret-position="714">
           <caret line="52" selection-start-line="52" selection-end-line="52" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1340#1341#0" expanded="true" />
-            <element signature="e#1369#1370#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -947,8 +910,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Tests/TeamModuleTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="1008">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -957,8 +920,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/TeamPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2209">
-          <caret line="99" column="40" lean-forward="true" selection-start-line="99" selection-start-column="40" selection-end-line="99" selection-end-column="40" />
+        <state relative-caret-position="1064">
+          <caret line="73" column="5" lean-forward="true" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
           <folding>
             <element signature="e#2286#2294#0" expanded="true" />
             <element signature="e#6628#6636#0" expanded="true" />
