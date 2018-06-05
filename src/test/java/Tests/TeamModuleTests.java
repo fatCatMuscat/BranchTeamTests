@@ -44,7 +44,11 @@ public class TeamModuleTests extends BaseTest {
     }
 
 
-
+    @Test
+    public void test() {
+        logger.error("ajldgjal");
+        logger.debug("debug");
+    }
 
 
 

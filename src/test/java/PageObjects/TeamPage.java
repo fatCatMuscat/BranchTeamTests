@@ -69,7 +69,7 @@ public class TeamPage extends BaseTest {
     // store employee names in a List of Strings from 'All' tab
     public List<String> getNamesFromAllTab() {
         List<String> namesFromAllCategory = new ArrayList<>(getTexts(teamPageFactory.displayedEmployeeNames));
-        if (namesFromAllCategory.isEmpty()) logger.error("DEBUG: no employee names elements found");
+        if (namesFromAllCategory.isEmpty()) logger.error("ERROR: no employee names elements found");
         return namesFromAllCategory;
     }
 
